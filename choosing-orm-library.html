@@ -106,7 +106,7 @@ use the system are determined.</p>
 decisions with the project really throw off the chart. Using a <a href="https://erikbern.com/2016/12/05/the-half-life-of-code.html">Ship of Theseus</a> analogy for code, you can see how
 much has changed. The basic idea is, if a ship leaves port and replaces every plank along it's journey, is it still the
 same ship when it returns? With code, the idea is to apply this to lines of code in an application.</p>
-<p><a href="{attach}images/smokey-git-theseus-all.png"><img alt="SmokeDetector - Git of Theseus" src="{attach}images/smokey-git-theseus-all.png"/></a></p>
+<p><a href="https://andrewwegner.com/images/smokey-git-theseus-all.png"><img alt="SmokeDetector - Git of Theseus" src="https://andrewwegner.com/images/smokey-git-theseus-all.png"/></a></p>
 <h3 id="what-happened-in-2014">What happened in 2014?!<a class="headerlink" href="#what-happened-in-2014" title="Permanent link">¶</a></h3>
 <p>In late 2014, the project attempted their first machine learning method of detecting spam. In this time period, a
 <a href="https://github.com/Charcoal-SE/SmokeDetector/commit/102aa9c64edafb7f5fef5ba16414f4cefad03d64">commit</a> was added that added about 200,000 lines of code to the project. This was almost all training data for a
@@ -115,11 +115,11 @@ stayed in the repository for over a year and was finally <a href="https://github
 above, and why almost everything added in 2014 looks like it's missing in later years.</p>
 <h3 id="what-has-really-changed">What has really changed?<a class="headerlink" href="#what-has-really-changed" title="Permanent link">¶</a></h3>
 <p>After eliminating that Bayesian directory from git history, you can get a much better idea of how much has changed. </p>
-<p><a href="{attach}images/smokey-git-theseus-filtered.png"><img alt="SmokeDetector - Git of Theseus - Filtered" src="{attach}images/smokey-git-theseus-filtered.png"/></a></p>
+<p><a href="https://andrewwegner.com/images/smokey-git-theseus-filtered.png"><img alt="SmokeDetector - Git of Theseus - Filtered" src="https://andrewwegner.com/images/smokey-git-theseus-filtered.png"/></a></p>
 <p>Very little of the original code, written in 2014, remains untouched. The explosion in code after that is due to
 new detection patterns, chat commands (and a rewrite), integration with MetaSmoke and the introduction of blacklists.</p>
 <p>Even more dramatically, you can see how long a line of code is expected to survive in the code base.</p>
-<p><a href="{attach}images/smokey-git-theseus-survival.png"><img alt="SmokeDetector - Line Survival Rate" src="{attach}images/smokey-git-theseus-survival.png"/></a></p>
+<p><a href="https://andrewwegner.com/images/smokey-git-theseus-survival.png"><img alt="SmokeDetector - Line Survival Rate" src="https://andrewwegner.com/images/smokey-git-theseus-survival.png"/></a></p>
 <p>Within one year, the team is removing over 40% what's been committed to the repository. Looking at these commits,
 it was determined that a vast majority aren't even <em>code</em>. They are new items to blacklist or new patterns to detect.</p>
 <h2 id="enter-the-database">Enter the database<a class="headerlink" href="#enter-the-database" title="Permanent link">¶</a></h2>
@@ -143,7 +143,7 @@ technical differences were between the two solutions.</p>
 handful of tests. These tests included inserting two settings in an SQLite database, retrieving one, inserting a large
 list of users and then retrieving a subset of those users.</p>
 <p>The results were...unremarkable.</p>
-<p><a href="{attach}images/peewee-vs-sqlalcheme-results.png"><img alt="peewee vs SQLAlchemy results" src="{attach}images/peewee-vs-sqlalcheme-results.png"/></a></p>
+<p><a href="https://andrewwegner.com/images/peewee-vs-sqlalcheme-results.png"><img alt="peewee vs SQLAlchemy results" src="https://andrewwegner.com/images/peewee-vs-sqlalcheme-results.png"/></a></p>
 <p>The two libraries each took two tests (out of four) for being faster than the other. In both cases where SQLAlchemy was
 faster, it was between two and six times faster. Where peewee was faster it was between a fraction faster and twice as
 fast.</p>

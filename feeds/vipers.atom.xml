@@ -13,7 +13,7 @@ created by members of Team Vipers. They have indicated they'd be willing to abso
 &lt;p&gt;
 &lt;iframe allowfullscreen="true" frameborder="0" height="315" src="//www.youtube.com/embed/BL-5OdZc3zw" width="560"&gt;&lt;/iframe&gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;img alt="Thanks for the fish" src="{attach}images/thanks-for-the-fish.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Thanks for the fish" src="https://andrewwegner.com/images/thanks-for-the-fish.jpg"/&gt;&lt;/p&gt;
 &lt;hr/&gt;
 &lt;h2 id="original-announcement"&gt;Original Announcement&lt;a class="headerlink" href="#original-announcement" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;On January 5th, 2015, I am stepping away from Vipers as the owner and administrator. Unfortunately, I no longer have time
@@ -107,7 +107,7 @@ ban shoots way up.&lt;/p&gt;
 &lt;h2 id="our-rules"&gt;Our Rules&lt;a class="headerlink" href="#our-rules" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Vipers has five very simple rules. These are presented every time someone joins any of our game servers. They have to
 click "Continue" to move past them.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Vipers Rules" src="{attach}images/vipers-rules.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Vipers Rules" src="https://andrewwegner.com/images/vipers-rules.png"/&gt;&lt;/p&gt;
 &lt;p&gt;We have a very simple structure for how bans work. Unless you are incredibly egregious in your behavior, or are out right
 cheating by using hacks of some kind, you get a 4 strike policy. The ban length for the first three increases for each, but you
 are allowed back. On the forth, we show you the door. Most of our bans are &lt;a href="https://andrewwegner.com/monitoring-language-on-the-game-servers.html"&gt;automated&lt;/a&gt;, thus are violating the very first rule.&lt;/p&gt;
@@ -121,7 +121,7 @@ forth offense, you have to come to us and ask. You should think about how you ge
 a private server for others to play on. My server, my rules (technically, the community's rules, but you understand...)
 I am not bound by the First Amendment to allow you to say whatever you want.&lt;/p&gt;
 &lt;p&gt;An example:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Freedom of speech appeal" src="{attach}images/vipers-speech-appeal-1.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Freedom of speech appeal" src="https://andrewwegner.com/images/vipers-speech-appeal-1.png"/&gt;&lt;/p&gt;
 &lt;p&gt;Let's break down some of the flaws:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;First, and most importantly, we do not have a member named "DarkWolf", let alone an admin&lt;/li&gt;
@@ -138,7 +138,7 @@ of the trigger words we ban for on the servers. Just in case we were reconsideri
 &lt;p&gt;It's amazing how quickly that tune changes when I can produce exact, timestamped, logs with their Steam ID attached to it. It's even
 more amusing when the admin being accused is "Zephyr", the automated process that watches for such language.&lt;/p&gt;
 &lt;p&gt;An example:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Admin abuse appeal" src="{attach}images/vipers-abuse-appeal-1.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Admin abuse appeal" src="https://andrewwegner.com/images/vipers-abuse-appeal-1.png"/&gt;&lt;/p&gt;
 &lt;p&gt;Let's break down this one too:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Zephyr is a bot. It is not holding a grudge and it is not stalking you&lt;/li&gt;
@@ -150,7 +150,7 @@ more amusing when the admin being accused is "Zephyr", the automated process tha
 &lt;p&gt;A rant isn't helpful to anyone. It doesn't endear the poster to the community. The administrators don't want to read through
 a rambling, unformated, exposition.&lt;/p&gt;
 &lt;p&gt;An example:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Rant appeal" src="{attach}images/vipers-rant-appeal-1.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Rant appeal" src="https://andrewwegner.com/images/vipers-rant-appeal-1.png"/&gt;&lt;/p&gt;
 &lt;p&gt;Our break down:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Several logic errors and contradictions to their own arguments&lt;/li&gt;
@@ -162,7 +162,7 @@ a rambling, unformated, exposition.&lt;/p&gt;
 &lt;p&gt;Threats to attack the server in some way are not going to get you unbanned. There are only two possible outcomes to this
 appeal type. Either you are successful and the server is off line (now how are you going to play even if unbanned) or we
 ignore your tantrum and leave you banned.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="DDOS appeal" src="{attach}images/vipers-ddos-appeal-1.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="DDOS appeal" src="https://andrewwegner.com/images/vipers-ddos-appeal-1.png"/&gt;&lt;/p&gt;
 &lt;p&gt;Break down:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;I have no reason to unban you. You've threatened the servers and made an ultimatum that effectively holds us hostage:
@@ -228,7 +228,7 @@ you to all our players that entered!&lt;/p&gt;
 &lt;li&gt;Iamthebaron: Winner of 4 refined metal&lt;/li&gt;
 &lt;li&gt;That Guy From That Thing: Winner of 1 refined metal&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt="First Raffle Bot Entries and Winners" src="{attach}images/rafflebot-entries.png"/&gt; &lt;/p&gt;</content><category term="team vipers"></category><category term="automation"></category><category term="community"></category><category term="programming"></category></entry><entry><title>Homing projectiles are awesome!</title><link href="https://andrewwegner.com/homing-projectiles-are-awesome!.html" rel="alternate"></link><published>2012-06-30T08:02:00-05:00</published><updated>2015-05-20T00:00:00-05:00</updated><author><name>Andy Wegner</name></author><id>tag:andrewwegner.com,2012-06-30:/homing-projectiles-are-awesome!.html</id><summary type="html">&lt;p&gt;Pyro is an under utilized class on the Crit server. This post explains how I've fixed that.&lt;/p&gt;</summary><content type="html">
+&lt;p&gt;&lt;img alt="First Raffle Bot Entries and Winners" src="https://andrewwegner.com/images/rafflebot-entries.png"/&gt; &lt;/p&gt;</content><category term="team vipers"></category><category term="automation"></category><category term="community"></category><category term="programming"></category></entry><entry><title>Homing projectiles are awesome!</title><link href="https://andrewwegner.com/homing-projectiles-are-awesome!.html" rel="alternate"></link><published>2012-06-30T08:02:00-05:00</published><updated>2015-05-20T00:00:00-05:00</updated><author><name>Andy Wegner</name></author><id>tag:andrewwegner.com,2012-06-30:/homing-projectiles-are-awesome!.html</id><summary type="html">&lt;p&gt;Pyro is an under utilized class on the Crit server. This post explains how I've fixed that.&lt;/p&gt;</summary><content type="html">
 &lt;h2 id="stupid-soldier-spam"&gt;Stupid soldier spam&lt;a class="headerlink" href="#stupid-soldier-spam" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The appeal of the crit server is fast game play, overpowered shots, and nearly instant death if you aren't paying attention.
 The down side is the soldier spam. Lots of it. It's not unusual to have a team of soldiers spamming rockets. This is part
@@ -268,7 +268,7 @@ the servers at once. Thus, I've built a tool...&lt;/p&gt;
 &lt;p&gt;All chat that occurs on the servers is logged. I've used this to resolve complaints of unfair bans and reports of hackers.
 I built in a hook to these logs from the application template to quickly pull known aliases of users. It's been invaluable
 in solving problems of "what happened" on the servers.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Multiserver Chat monitor" src="{attach}images/vipers-chat-monitor.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Multiserver Chat monitor" src="https://andrewwegner.com/images/vipers-chat-monitor.png"/&gt;&lt;/p&gt;
 &lt;p&gt;I've expanded it's usefulness. Now I can load a single page and see all chat activity occurring on all active game servers
 on a single screen. It provides, at a glance, a quick way to see if there are problems on the servers. It also allows me
 to step back from picking which server I think will be "bad" and monitor that. Now I can monitor all of them at once.&lt;/p&gt;
@@ -383,18 +383,18 @@ should continue to work&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id="good-vs-bad"&gt;Good vs Bad&lt;a class="headerlink" href="#good-vs-bad" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;I don't have exact stats on Good vs Bad rolls before the rewrite, but we started logging all rolls with the rewrite. This is the 
 split of Good vs Bad. I am very happy with an almost exactly 50/50 split over nearly a million RTDs.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="RTD Split" src="{attach}images/rtd-split.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="RTD Split" src="https://andrewwegner.com/images/rtd-split.png"/&gt;&lt;/p&gt;
 &lt;h3 id="class-with-the-most-rtds"&gt;Class with the most RTDs&lt;a class="headerlink" href="#class-with-the-most-rtds" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Solider was the most popular class on the crit server. The images below show number of times our soldiers got certain rolls. Note that God Mode is 
 low because the community decided having both God Mode and Powerplay was redundant. They decided to keep Power play. God Mode was
 disabled about a year after this version was released. Homing is low because it wasn't implemented until about 18 months after
 the initial release.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="RTD Soldier" src="{attach}images/rtd-soldier.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="RTD Soldier" src="https://andrewwegner.com/images/rtd-soldier.png"/&gt;&lt;/p&gt;
 &lt;h3 id="class-with-the-least-rtds"&gt;Class with the least RTDs&lt;a class="headerlink" href="#class-with-the-least-rtds" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Medics rolled RTD the least number of times. This means sense for two reasons. First, they were not a common class on the crit server. When 
 nearly everything is one hit, one kill, it's very hard to build uber. Second, when you &lt;em&gt;do&lt;/em&gt; try to build Uber, ruining it with a 50/50
 shot at getting a bad roll isn't good for the team. The low God Mode and Homing results are the same here as they were for the soldier.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="RTD Medic" src="{attach}images/rtd-medic.png"/&gt; &lt;/p&gt;</content><category term="team vipers"></category><category term="programming"></category></entry><entry><title>A special kind of troll</title><link href="https://andrewwegner.com/a-special-kind-of-troll.html" rel="alternate"></link><published>2010-12-28T16:04:00-06:00</published><updated>2011-07-07T00:00:00-05:00</updated><author><name>Andy Wegner</name></author><id>tag:andrewwegner.com,2010-12-28:/a-special-kind-of-troll.html</id><summary type="html">&lt;p&gt;Thoughts on Viper's most recent troll&lt;/p&gt;</summary><content type="html">
+&lt;p&gt;&lt;img alt="RTD Medic" src="https://andrewwegner.com/images/rtd-medic.png"/&gt; &lt;/p&gt;</content><category term="team vipers"></category><category term="programming"></category></entry><entry><title>A special kind of troll</title><link href="https://andrewwegner.com/a-special-kind-of-troll.html" rel="alternate"></link><published>2010-12-28T16:04:00-06:00</published><updated>2011-07-07T00:00:00-05:00</updated><author><name>Andy Wegner</name></author><id>tag:andrewwegner.com,2010-12-28:/a-special-kind-of-troll.html</id><summary type="html">&lt;p&gt;Thoughts on Viper's most recent troll&lt;/p&gt;</summary><content type="html">
 &lt;h2 id="what-happened"&gt;What happened?&lt;a class="headerlink" href="#what-happened" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Over the Christmas holiday, the Team Vipers forums were hit by "multiple" users who decided it was a good idea to use our community 
 as a battle ground. A Viper member stepped in to "help" resolve the problem by attempting to play mediator. (Notice the
@@ -503,24 +503,24 @@ related permissions.&lt;/p&gt;
 &lt;h3 id="accepted-by-admin-team"&gt;Accepted by admin team&lt;a class="headerlink" href="#accepted-by-admin-team" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;If you reach a total of three or more admin "Yes" votes, and do not get three or more admin "No" votes, you will be accepted
 as a member of Vipers and automatically have your forum access modified. You will receive a message similar to this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Application Accepted" src="{attach}images/application-accepted.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Application Accepted" src="https://andrewwegner.com/images/application-accepted.png"/&gt;&lt;/p&gt;
 &lt;h3 id="denied-by-admin-team"&gt;Denied by admin team&lt;a class="headerlink" href="#denied-by-admin-team" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;If you reach three or more "No" votes your application will be denied. This will occur even if you receive more "Yes" votes
 than "No" votes. Vipers is not a majority rule community. The decision has been made that if three admins do not feel comfortable
 accepting your application, you will not be granted membership. You will receive a message similar to this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Application Denied by Admins" src="{attach}images/application-denied.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Application Denied by Admins" src="https://andrewwegner.com/images/application-denied.png"/&gt;&lt;/p&gt;
 &lt;h3 id="denied-due-to-lack-of-votes"&gt;Denied due to lack of votes&lt;a class="headerlink" href="#denied-due-to-lack-of-votes" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;To be accepted, your application requires a minimum of three "Yes" votes. If this can not be reached (and you also can't reach
  three "No" votes), your application will be rejected due to lack of votes from the admin team. This means that the admin team
  does not feel strongly either way about your application. Post on the forums. Play in the servers. Get to know our players
  and the community at large and then try again in a month. You will receive a message similar to this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Application Denied with not enough votes" src="{attach}images/application-denied-not-enough-votes.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Application Denied with not enough votes" src="https://andrewwegner.com/images/application-denied-not-enough-votes.png"/&gt;&lt;/p&gt;
 &lt;h3 id="denied-because-of-age"&gt;Denied because of age&lt;a class="headerlink" href="#denied-because-of-age" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Repeat after me: "Age does not equal maturity." However, it has a very strong correlation. Over time we have learned that younger
  players tend to bring a lower maturity level that most of the community does not care for. As such, we've decided to set a minimum
  age requirement of 16. If a user indicates they are less than that, the system will reject their application with a message similar to
  this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Application Denied because of age" src="{attach}images/application-denied-underage.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Application Denied because of age" src="https://andrewwegner.com/images/application-denied-underage.png"/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Updated January 2010&lt;/em&gt; This process has been in place for a few months now. It has gone very well. We've reduced the clutter
 in the applications forum. We've also seen the number of "forgotten" applications drop dramatically.&lt;/p&gt;
 &lt;h2 id="original-announcement"&gt;Original Announcement&lt;a class="headerlink" href="#original-announcement" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;

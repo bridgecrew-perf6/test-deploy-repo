@@ -140,10 +140,10 @@
 heroku/7.60.2 linux-x64 node-v14.19.0
 </pre></div>
 <p>Set up the new application in your Heroku account by logging in. Then click <code>New</code> then <code>Create new app</code>.</p>
-<p><img alt="Create new heroku app - New / Create new app" src="{attach}images/sanic-heroku-new-app.png"/></p>
+<p><img alt="Create new heroku app - New / Create new app" src="https://andrewwegner.com/images/sanic-heroku-new-app.png"/></p>
 <p>Enter a unique application name.</p>
 <p>Then add Python to the build path. Do this by going to <code>Settings</code> -&gt; <code>Add buildpack</code> -&gt; Selecting Python and clicking save.</p>
-<p><img alt="Add Python buildpack - Settings / Add buildpack / Python" src="{attach}images/sanic-heroku-buildpack.png"/></p>
+<p><img alt="Add Python buildpack - Settings / Add buildpack / Python" src="https://andrewwegner.com/images/sanic-heroku-buildpack.png"/></p>
 <p>The next step is setting up the two files I mentioned earlier - <code>Procfile</code> and <code>requirements.txt</code>. Since the <code>Procfile</code> is a single line for this simple proof of concept, that can been done in a single line from the shell.</p>
 <div class="codehilight code"><pre><span></span>$ <span class="nb">echo</span> <span class="s2">"web: sanic server:app"</span> &gt; Procfile
 </pre></div>

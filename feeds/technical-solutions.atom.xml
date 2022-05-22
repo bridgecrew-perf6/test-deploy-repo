@@ -47,10 +47,10 @@
 heroku/7.60.2 linux-x64 node-v14.19.0
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Set up the new application in your Heroku account by logging in. Then click &lt;code&gt;New&lt;/code&gt; then &lt;code&gt;Create new app&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Create new heroku app - New / Create new app" src="{attach}images/sanic-heroku-new-app.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Create new heroku app - New / Create new app" src="https://andrewwegner.com/images/sanic-heroku-new-app.png"/&gt;&lt;/p&gt;
 &lt;p&gt;Enter a unique application name.&lt;/p&gt;
 &lt;p&gt;Then add Python to the build path. Do this by going to &lt;code&gt;Settings&lt;/code&gt; -&amp;gt; &lt;code&gt;Add buildpack&lt;/code&gt; -&amp;gt; Selecting Python and clicking save.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Add Python buildpack - Settings / Add buildpack / Python" src="{attach}images/sanic-heroku-buildpack.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Add Python buildpack - Settings / Add buildpack / Python" src="https://andrewwegner.com/images/sanic-heroku-buildpack.png"/&gt;&lt;/p&gt;
 &lt;p&gt;The next step is setting up the two files I mentioned earlier - &lt;code&gt;Procfile&lt;/code&gt; and &lt;code&gt;requirements.txt&lt;/code&gt;. Since the &lt;code&gt;Procfile&lt;/code&gt; is a single line for this simple proof of concept, that can been done in a single line from the shell.&lt;/p&gt;
 &lt;div class="codehilight code"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;"web: sanic server:app"&lt;/span&gt; &amp;gt; Procfile
 &lt;/pre&gt;&lt;/div&gt;
@@ -129,7 +129,7 @@ the project that will be using this runner. It should be available at this link:
 &lt;h2 id="using-the-cicd-pipeline"&gt;Using the CI/CD pipeline&lt;a class="headerlink" href="#using-the-cicd-pipeline" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;At this point, the GitLab runner is registered to a single project and is ready to use. You can enable your project to use this pipeline by adding a &lt;code&gt;.gitlab-ci.yml&lt;/code&gt; file to the root of your repository.&lt;/p&gt;
 &lt;p&gt;I used it to set up the following pipeline.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Python - GitLab Pipeline" src="{attach}images/gitlab-python-pipeline.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Python - GitLab Pipeline" src="https://andrewwegner.com/images/gitlab-python-pipeline.png"/&gt;&lt;/p&gt;
 &lt;p&gt;This pipeline has 4 stages.&lt;/p&gt;
 &lt;h3 id="static-analysis"&gt;Static Analysis&lt;a class="headerlink" href="#static-analysis" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;In the Static Analysis phase, I run various analysis tools over my code. The goal here is to ensure that my code, YAML documents, and documentation are easy to read and use.&lt;/p&gt;
@@ -144,7 +144,7 @@ the project that will be using this runner. It should be available at this link:
 &lt;h2 id="environment-set-up"&gt;Environment set up&lt;a class="headerlink" href="#environment-set-up" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;One of my biggest complaints about the Travis CI integration with GitHub is how you &lt;a href="https://andrewwegner.com/travisci-insecure-environment-variables.html"&gt;can't trust environment variables in Travis CI&lt;/a&gt;. Since I control the server that this runner is connected to, I have no problem adding environment variables into GitLab.&lt;/p&gt;
 &lt;p&gt;In the project, I was able to add these by going to Settings-&amp;gt;CI/CD and expanding the Variables section. I needed to store credentials for both the test and production instances of PyPI.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="GitLab Environment Variables" src="{attach}images/gitlab-env-variables.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GitLab Environment Variables" src="https://andrewwegner.com/images/gitlab-env-variables.png"/&gt;&lt;/p&gt;
 &lt;p&gt;With these added, they are now accessible by my &lt;code&gt;.gitlab-ci.yml&lt;/code&gt; file.&lt;/p&gt;
 &lt;h3 id="gitlab-ciyml"&gt;.gitlab-ci.yml&lt;a class="headerlink" href="#gitlab-ciyml" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;The script I use to build the pipeline is as follows:&lt;/p&gt;
@@ -660,7 +660,7 @@ this updated added was:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Enhanced the stability of Linux operating system&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt="BIOS Update available" src="{attach}images/update-available.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="BIOS Update available" src="https://andrewwegner.com/images/update-available.png"/&gt;&lt;/p&gt;
 &lt;p&gt;I've been putting off updating due to squeamishness involving touching the BIOS. If it goes poorly, it could make my day really
 stressful.&lt;/p&gt;
 &lt;p&gt;It's currently -50 with the windchill outside. Schools are closed. Businesses are closed. Even the Post Office has said they aren't
@@ -817,14 +817,14 @@ variable we'll need. This will be the Personal Access Token used to commit to th
 &lt;p&gt;Click "Generate new token" and enter your password as appropriate. Provide a useful description for your token and under the &lt;code&gt;repo&lt;/code&gt; scope,
 select only &lt;code&gt;public_repo&lt;/code&gt;. If you are planning on committing to a private repository, you will need to select the entire &lt;code&gt;repo&lt;/code&gt; scope. Since my
 generated content isn't hosted in a private repository, the &lt;code&gt;public_repo&lt;/code&gt; is enough. Select "Generate token" at the bottom.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="GitHub Token Selection" src="{attach}images/build_blog_github_token.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GitHub Token Selection" src="https://andrewwegner.com/images/build_blog_github_token.png"/&gt;&lt;/p&gt;
 &lt;p&gt;You will be presented with your token. &lt;strong&gt;Copy this someplace, you won't be able to access this value again&lt;/strong&gt;.&lt;/p&gt;
 &lt;h3 id="travis-ci-environment-variable"&gt;Travis CI Environment Variable&lt;a class="headerlink" href="#travis-ci-environment-variable" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Now, this token needs to be accessible in Travis CI. Navigate to &lt;a href="https://travis-ci.org/"&gt;Travis CI&lt;/a&gt; and find your &lt;code&gt;content&lt;/code&gt; repository. Under "More Options",
 on the left select "Settings". Scroll down to "Environment Variables". In my &lt;code&gt;deploy.sh&lt;/code&gt; script, I use the variable &lt;code&gt;GITHUB_API_KEY&lt;/code&gt;,
 so that is what I'll use here too. Enter the variable name and the token GitHub provided in the previous step. Do not change "Display value
 in build log" to &lt;code&gt;true&lt;/code&gt; and press "Add".&lt;/p&gt;
-&lt;p&gt;&lt;img alt="GitHub Token Selection" src="{attach}images/build_blog_github_envvariable.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GitHub Token Selection" src="https://andrewwegner.com/images/build_blog_github_envvariable.png"/&gt;&lt;/p&gt;
 &lt;h3 id="deploysh"&gt;deploy.sh&lt;a class="headerlink" href="#deploysh" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;The next step is configuring the &lt;a href="https://github.com/AWegnerGitHub/awegnergithub.github.io-source/blob/master/deploy.sh"&gt;&lt;code&gt;deploy.sh&lt;/code&gt;&lt;/a&gt; script in the source repository. For my configuration, all that is needed is
 changing the &lt;code&gt;GH_USERNAME&lt;/code&gt; variable to be the name of the user hosting the blog. Still, there is more to the script, if you
@@ -832,7 +832,7 @@ find this and wish to make changes.&lt;/p&gt;
 &lt;p&gt;There are a few areas that may be important. The first is that pushes to the generated repository are done with the username "Travis CI" and
 an associated Travis CI email address. Change these as you wish. I didn't want them in my name, so that I could easily pick out which commits
 I did versus which ones were done automatically. The old commits in my name vs. the new automated commits look like this in GitHub.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Blog commit differences" src="{attach}images/build_blog_github_commits.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Blog commit differences" src="https://andrewwegner.com/images/build_blog_github_commits.png"/&gt;&lt;/p&gt;
 &lt;p&gt;Another important line of code is this one in the deploy script:&lt;/p&gt;
 &lt;div class="codehilight code"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;push&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;fq&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nl"&gt;https&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="nl"&gt;GH_USERNAME&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;GITHUB_API_KEY&lt;/span&gt;&lt;span class="nv"&gt;@github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;TARGET_REPO&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&amp;gt;/&lt;/span&gt;&lt;span class="n"&gt;dev&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;null&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;||&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;exit&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
@@ -1033,7 +1033,7 @@ cat laptop-rsync-key.pub &amp;gt;&amp;gt; authorized_keys
 &lt;/ol&gt;
 &lt;h3 id="slack-set-up-part-2"&gt;Slack set up - Part 2&lt;a class="headerlink" href="#slack-set-up-part-2" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;ngrok&lt;/code&gt; provides a public URL. In the screenshot below, my URL is &lt;code&gt;https://1eed8eae.ngrok.io&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="ngrok dashboard" src="{attach}images/ngrok.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ngrok dashboard" src="https://andrewwegner.com/images/ngrok.png"/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Important Note:&lt;/strong&gt; This changes every time &lt;code&gt;ngrok&lt;/code&gt; is stated.&lt;/p&gt;
 &lt;p&gt;At this point, I can visit &lt;code&gt;https://1eed8eae.ngrok.io/hello-world&lt;/code&gt; in my browser and get an error message because I didn't configure it to support &lt;code&gt;GET&lt;/code&gt; requests.&lt;/p&gt;
 &lt;ol&gt;
@@ -1046,7 +1046,7 @@ cat laptop-rsync-key.pub &amp;gt;&amp;gt; authorized_keys
 &lt;li&gt;Add a usage hint. This is useful if you are passing parameters to the command.&lt;/li&gt;
 &lt;li&gt;Press save&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img alt="Slash Command Example" src="{attach}images/slash-command-example.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Slash Command Example" src="https://andrewwegner.com/images/slash-command-example.png"/&gt;&lt;/p&gt;
 &lt;p&gt;The slash command is now set up. The last step is installing the application. Go back to "Basic Information" and expand "Install your app to your workspace" then press the green "Install App to Workspace" button. You'll be presented with an oAuth Access Token. For this example application, it's not needed.&lt;/p&gt;
 &lt;p&gt;Now go into any channel in Slack and use the new &lt;code&gt;/hello-world&lt;/code&gt; command.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Important Note:&lt;/strong&gt; If/when you shut down and restart &lt;code&gt;ngrok&lt;/code&gt;, you'll get a new end point. The slash command will need to be modified to point to this new request URL to continue to function. These changes will not be required once the application is deployed to Google's App Engine.&lt;/p&gt;
@@ -1337,7 +1337,7 @@ it deployed to &lt;em&gt;my&lt;/em&gt; AWS account using &lt;em&gt;my&lt;/em&gt;
 &lt;p&gt;Commit this change to your new repository.&lt;/p&gt;
 &lt;h3 id="enable-travis-ci-integration"&gt;Enable Travis CI integration&lt;a class="headerlink" href="#enable-travis-ci-integration" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Go to &lt;a href="https://travis-ci.org/"&gt;Travis CI&lt;/a&gt; and log in with the GitHub account associated with the above step. Sync your account. Then enable integration by changing the repository switch.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Enable Integration" src="{attach}images/1-travis-enable-repository.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Enable Integration" src="https://andrewwegner.com/images/1-travis-enable-repository.png"/&gt;&lt;/p&gt;
 &lt;h3 id="create-a-travisyml-file"&gt;Create a .travis.yml file&lt;a class="headerlink" href="#create-a-travisyml-file" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;With the integration now in place, set up a basic build script by adding a &lt;code&gt;.travis.yml&lt;/code&gt; file to the repository.&lt;/p&gt;
 &lt;div class="codehilight code"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;language&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
@@ -1347,25 +1347,25 @@ it deployed to &lt;em&gt;my&lt;/em&gt; AWS account using &lt;em&gt;my&lt;/em&gt;
 &lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;hello&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;py&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This script will set up a build task and run your &lt;code&gt;hello.py&lt;/code&gt; file, using Python 3.5. You will see that "Hello World!" is printed in the build console.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="First Build" src="{attach}images/2-travis-first-build.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="First Build" src="https://andrewwegner.com/images/2-travis-first-build.png"/&gt;&lt;/p&gt;
 &lt;h3 id="add-environment-variables"&gt;Add Environment Variables&lt;a class="headerlink" href="#add-environment-variables" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Now that our build script is working, we can work on "deployment". Deployment to AWS (or other cloud services) requires that you provide credentials. I am not a fan of
 including credentials in my repository, even if they are encrypted. Opting for an environment variable should be more secure, as the credentials are never in your repository
 in the first place. &lt;strong&gt;It is important to note that you are still giving your credentials to Travis CI in this case.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;To set up environment variables, click on "More Options" and "Settings" within the Travis CI application.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Travis Settings" src="{attach}images/3-add-variable-1.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Travis Settings" src="https://andrewwegner.com/images/3-add-variable-1.png"/&gt;&lt;/p&gt;
 &lt;p&gt;Now scroll down to "Environment Variables". Add the name of the variable and the value. Be sure to leave the default value of "Off" selected. You don't want to display this
 value in the build log. Finally click "Add".&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Adding a variable" src="{attach}images/4-add-variable-2.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Adding a variable" src="https://andrewwegner.com/images/4-add-variable-2.png"/&gt;&lt;/p&gt;
 &lt;p&gt;I've added a second variable for further testing.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Adding a second variable" src="{attach}images/5-add-variable-3.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Adding a second variable" src="https://andrewwegner.com/images/5-add-variable-3.png"/&gt;&lt;/p&gt;
 &lt;p&gt;Notice that variable values are hidden from view after clicking "Add".&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Variable values hidden" src="{attach}images/6-variables-added.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Variable values hidden" src="https://andrewwegner.com/images/6-variables-added.png"/&gt;&lt;/p&gt;
 &lt;h3 id="check-values-during-build"&gt;Check values during build&lt;a class="headerlink" href="#check-values-during-build" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;With the variables saved, restart your build.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Restart Build" src="{attach}images/7-restart-build.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Restart Build" src="https://andrewwegner.com/images/7-restart-build.png"/&gt;&lt;/p&gt;
 &lt;p&gt;When the build has completed, check the build log. Even though we aren't using these values yet, we can see the environment variables exist and are "Secure".&lt;/p&gt;
-&lt;p&gt;&lt;img alt='"Secure" Variables' src="{attach}images/8-variables-secure.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt='"Secure" Variables' src="https://andrewwegner.com/images/8-variables-secure.png"/&gt;&lt;/p&gt;
 &lt;h3 id="accessing-the-values"&gt;Accessing the values&lt;a class="headerlink" href="#accessing-the-values" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;These values are not actually secure. Travis CI is filtering for the values of these environment variables and if the specific string is found, it is scrubbed from
 the log. We can see this with a small change to &lt;code&gt;hello.py&lt;/code&gt;.&lt;/p&gt;
@@ -1386,23 +1386,23 @@ environment variable.&lt;/p&gt;
 &lt;div class="codehilight code"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;|{} {}|
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Commit and push the change to GitHub. In Travis CI, we see the following in the build log:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Accessing the values" src="{attach}images/9-variables-filtered-by-match.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Accessing the values" src="https://andrewwegner.com/images/9-variables-filtered-by-match.png"/&gt;&lt;/p&gt;
 &lt;p&gt;As expected, the first pattern is hidden because it matches the environment variable. The second pattern is shown, because the space in the middle means the pattern no longer
 matches.&lt;/p&gt;
 &lt;h3 id="transfer-the-repository"&gt;Transfer the repository&lt;a class="headerlink" href="#transfer-the-repository" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Now that we've shown the variables are accessible, it's time to transfer the repository to a new owner. In GitHub, this can be accomplished by going to the repository settings
 and going down to the red "danger area". Once you've entered the name of the current repository and the name of the new owner, we wait for the new owner to accept the transfer.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Transfer the repository" src="{attach}images/10-transfer-repository.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Transfer the repository" src="https://andrewwegner.com/images/10-transfer-repository.png"/&gt;&lt;/p&gt;
 &lt;h3 id="build-with-the-new-owner"&gt;Build with the new owner&lt;a class="headerlink" href="#build-with-the-new-owner" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Make a change and commit it to the new repository. I simply modified the "Hello World" line:&lt;/p&gt;
 &lt;div class="codehilight code"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;print("Hello World from new owner!")
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;A new build will kick off. You can see that the repository has transferred to the new owner in the build log. You can also see the environment variables were transfered to the
 new owner. Other than the new owner being listed, the build log shows the same output as before&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Everything has transfered" src="{attach}images/11-build-after-transfer.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Everything has transfered" src="https://andrewwegner.com/images/11-build-after-transfer.png"/&gt;&lt;/p&gt;
 &lt;h3 id="variables-in-the-ui"&gt;Variables in the UI&lt;a class="headerlink" href="#variables-in-the-ui" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;You can also see these variables have transferred by going back to "More Options", then "Settings" in Travis CI. The values are still hidden behind the input password field.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Variables in UI" src="{attach}images/12-variables-transfered.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Variables in UI" src="https://andrewwegner.com/images/12-variables-transfered.png"/&gt;&lt;/p&gt;
 &lt;h2 id="impact-of-bug"&gt;Impact of bug&lt;a class="headerlink" href="#impact-of-bug" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The example above shows two problems. The bigger problem, in my opinion, is that environment variables are transferred to a new owner. The secondary problem is that "secure"
 variables are really just obfuscated. Accessing them is trivial. With this demonstration, we added in a step to show that the variables can be seen by the original
@@ -1686,7 +1686,7 @@ use the system are determined.&lt;/p&gt;
 decisions with the project really throw off the chart. Using a &lt;a href="https://erikbern.com/2016/12/05/the-half-life-of-code.html"&gt;Ship of Theseus&lt;/a&gt; analogy for code, you can see how
 much has changed. The basic idea is, if a ship leaves port and replaces every plank along it's journey, is it still the
 same ship when it returns? With code, the idea is to apply this to lines of code in an application.&lt;/p&gt;
-&lt;p&gt;&lt;a href="{attach}images/smokey-git-theseus-all.png"&gt;&lt;img alt="SmokeDetector - Git of Theseus" src="{attach}images/smokey-git-theseus-all.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://andrewwegner.com/images/smokey-git-theseus-all.png"&gt;&lt;img alt="SmokeDetector - Git of Theseus" src="https://andrewwegner.com/images/smokey-git-theseus-all.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="what-happened-in-2014"&gt;What happened in 2014?!&lt;a class="headerlink" href="#what-happened-in-2014" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;In late 2014, the project attempted their first machine learning method of detecting spam. In this time period, a
 &lt;a href="https://github.com/Charcoal-SE/SmokeDetector/commit/102aa9c64edafb7f5fef5ba16414f4cefad03d64"&gt;commit&lt;/a&gt; was added that added about 200,000 lines of code to the project. This was almost all training data for a
@@ -1695,11 +1695,11 @@ stayed in the repository for over a year and was finally &lt;a href="https://git
 above, and why almost everything added in 2014 looks like it's missing in later years.&lt;/p&gt;
 &lt;h3 id="what-has-really-changed"&gt;What has really changed?&lt;a class="headerlink" href="#what-has-really-changed" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;After eliminating that Bayesian directory from git history, you can get a much better idea of how much has changed. &lt;/p&gt;
-&lt;p&gt;&lt;a href="{attach}images/smokey-git-theseus-filtered.png"&gt;&lt;img alt="SmokeDetector - Git of Theseus - Filtered" src="{attach}images/smokey-git-theseus-filtered.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://andrewwegner.com/images/smokey-git-theseus-filtered.png"&gt;&lt;img alt="SmokeDetector - Git of Theseus - Filtered" src="https://andrewwegner.com/images/smokey-git-theseus-filtered.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Very little of the original code, written in 2014, remains untouched. The explosion in code after that is due to
 new detection patterns, chat commands (and a rewrite), integration with MetaSmoke and the introduction of blacklists.&lt;/p&gt;
 &lt;p&gt;Even more dramatically, you can see how long a line of code is expected to survive in the code base.&lt;/p&gt;
-&lt;p&gt;&lt;a href="{attach}images/smokey-git-theseus-survival.png"&gt;&lt;img alt="SmokeDetector - Line Survival Rate" src="{attach}images/smokey-git-theseus-survival.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://andrewwegner.com/images/smokey-git-theseus-survival.png"&gt;&lt;img alt="SmokeDetector - Line Survival Rate" src="https://andrewwegner.com/images/smokey-git-theseus-survival.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Within one year, the team is removing over 40% what's been committed to the repository. Looking at these commits,
 it was determined that a vast majority aren't even &lt;em&gt;code&lt;/em&gt;. They are new items to blacklist or new patterns to detect.&lt;/p&gt;
 &lt;h2 id="enter-the-database"&gt;Enter the database&lt;a class="headerlink" href="#enter-the-database" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
@@ -1723,7 +1723,7 @@ technical differences were between the two solutions.&lt;/p&gt;
 handful of tests. These tests included inserting two settings in an SQLite database, retrieving one, inserting a large
 list of users and then retrieving a subset of those users.&lt;/p&gt;
 &lt;p&gt;The results were...unremarkable.&lt;/p&gt;
-&lt;p&gt;&lt;a href="{attach}images/peewee-vs-sqlalcheme-results.png"&gt;&lt;img alt="peewee vs SQLAlchemy results" src="{attach}images/peewee-vs-sqlalcheme-results.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://andrewwegner.com/images/peewee-vs-sqlalcheme-results.png"&gt;&lt;img alt="peewee vs SQLAlchemy results" src="https://andrewwegner.com/images/peewee-vs-sqlalcheme-results.png"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The two libraries each took two tests (out of four) for being faster than the other. In both cases where SQLAlchemy was
 faster, it was between two and six times faster. Where peewee was faster it was between a fraction faster and twice as
 fast.&lt;/p&gt;

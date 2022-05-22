@@ -224,7 +224,7 @@
 </ol>
 <h3 id="slack-set-up-part-2">Slack set up - Part 2<a class="headerlink" href="#slack-set-up-part-2" title="Permanent link">¶</a></h3>
 <p><code>ngrok</code> provides a public URL. In the screenshot below, my URL is <code>https://1eed8eae.ngrok.io</code>.</p>
-<p><img alt="ngrok dashboard" src="{attach}images/ngrok.png"/></p>
+<p><img alt="ngrok dashboard" src="https://andrewwegner.com/images/ngrok.png"/></p>
 <p><strong>Important Note:</strong> This changes every time <code>ngrok</code> is stated.</p>
 <p>At this point, I can visit <code>https://1eed8eae.ngrok.io/hello-world</code> in my browser and get an error message because I didn't configure it to support <code>GET</code> requests.</p>
 <ol>
@@ -237,7 +237,7 @@
 <li>Add a usage hint. This is useful if you are passing parameters to the command.</li>
 <li>Press save</li>
 </ol>
-<p><img alt="Slash Command Example" src="{attach}images/slash-command-example.png"/></p>
+<p><img alt="Slash Command Example" src="https://andrewwegner.com/images/slash-command-example.png"/></p>
 <p>The slash command is now set up. The last step is installing the application. Go back to "Basic Information" and expand "Install your app to your workspace" then press the green "Install App to Workspace" button. You'll be presented with an oAuth Access Token. For this example application, it's not needed.</p>
 <p>Now go into any channel in Slack and use the new <code>/hello-world</code> command.</p>
 <p><strong>Important Note:</strong> If/when you shut down and restart <code>ngrok</code>, you'll get a new end point. The slash command will need to be modified to point to this new request URL to continue to function. These changes will not be required once the application is deployed to Google's App Engine.</p>
