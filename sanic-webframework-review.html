@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Andy Wegner" />
+
+        <meta property="og:type" content="article" />
+
+<meta name="keywords" content="review, technical, learning, Review, " />
+
+<meta property="og:title" content="Review of Sanic - An Asynchronous Web Framework for Pythonistas Udemy course "/>
+<meta property="og:url" content="https://andrewwegner.com/sanic-webframework-review.html" />
+<meta property="og:description" content="My review of the Sanic Web Framework fro Pythonistas course on Udemy." />
+<meta property="og:site_name" content="Ponderings of an Andy" />
+<meta property="og:article:author" content="Andy Wegner" />
+<meta property="og:article:published_time" content="2019-01-23T10:00:00-06:00" />
+<meta name="twitter:title" content="Review of Sanic - An Asynchronous Web Framework for Pythonistas Udemy course ">
+<meta name="twitter:description" content="My review of the Sanic Web Framework fro Pythonistas course on Udemy.">
+
+        <title>Review of Sanic - An Asynchronous Web Framework for Pythonistas Udemy course  · Ponderings of an Andy
+</title>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://andrewwegner.com/theme/css/pygments.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://andrewwegner.com/theme/tipuesearch/tipuesearch.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://andrewwegner.com/theme/css/elegant.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://andrewwegner.com/theme/css/custom.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://andrewwegner.com/theme/css/keys.css" media="screen">
+        <link href="https://andrewwegner.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ponderings of an Andy - Full Atom Feed" />
+
+<script type="text/javascript">
+    window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+      heap.load("653100411");
+</script>
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="https://andrewwegner.com/"><span class=site-name>Ponderings of an Andy</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="https://andrewwegner.com">Home</a></li>
+                            <li ><a href="https://andrewwegner.com/categories.html">Categories</a></li>
+                            <li ><a href="https://andrewwegner.com/tags.html">Tags</a></li>
+                            <li ><a href="https://andrewwegner.com/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="https://andrewwegner.com/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<section itemscope itemtype="https://schema.org/Review">
+<meta itemprop="headline" content="Review of Sanic - An Asynchronous Web Framework for Pythonistas Udemy course" />
+<time itemprop="datePublished" datetime="2019-01-23T10:00:00-06:00">
+<meta itemprop="publisher" content="Andy Wegner" />
+<link rel="canonical" href="https://andrewwegner.com/sanic-webframework-review.html" />
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+    <h1><a href="https://andrewwegner.com/sanic-webframework-review.html"> Review of Sanic - An Asynchronous Web Framework for Pythonistas Udemy course  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid" id="table-of-contents">
+    <div class="span2 table-of-content">
+        <nav>
+        <h4>Contents</h4>
+        <div class="toc">
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#course">Course</a></li>
+<li><a href="#thoughts-on-the-lessons">Thoughts on the lessons</a></li>
+<li><a href="#final-thoughts">Final Thoughts</a></li>
+</ul>
+</div>
+        </nav>
+    </div>
+    <div class="span8 article-content">
+
+            
+            <div itemprop="reviewBody mainEntityOfPage">
+            
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">¶</a></h2>
+<p>At work we are starting to write version 2 of our API. As part of this new version, we're migrating from PHP to Python (hooray!). There are various technical
+reasons for this, but I am excited. My technical skills are much (<em>much</em>) better in Python. Part of this migration involved decided the framework we'd be using
+and after several internal discussions, we settled on <a href="https://sanic.readthedocs.io/en/latest/">Sanic</a>. The first line of the documentation reads:</p>
+<blockquote>
+<p>Sanic is a Flask-like Python 3.5+ web server that’s written to go fast.</p>
+</blockquote>
+<p>Great! I used Flask at my previous job. To be clear, Sanic is not <em>based on</em> Flask, but it's API is <em>Flask-like</em>. Good enjoy to start with. With the framework
+set, and previous experience with a similar framework, I wanted to go through how Sanic works.</p>
+<p>I turned to Udemy and the <a href="https://www.udemy.com/sanic-an-asynchronous-web-framework-for-pythonistas/">Sanic - an asynchronous web framework for Pythonistas</a> course, created by Szabó Dániel Ernő.</p>
+<h2 id="course">Course<a class="headerlink" href="#course" title="Permanent link">¶</a></h2>
+<p>The course is roughly two hours long and consists of 20 tutorial videos. Each one is less than 10 minutes long. It covers a wide range of features available in
+Sanic. The instructor made their code available on <a href="https://github.com/r3ap3rpy/sanic-web-framework">GitHub</a>. I never actually used the GitHub repository though. Instead, I followed along with the brief
+tutorials.</p>
+<p>For me, this speaks to the instructor's ability to keep the lessons and code short and simple yet effectively show how a single feature works. By making the
+code easy enough to type and follow along, the lesson was more effective because I was <em>doing</em> instead of just reading code.</p>
+<p>The first few lessons are a little rough, because the recordings stutter like the machine that was doing the recording wasn't powerful enough. After 5-6 lessons
+this clears up. It's a minor thing but I do feel it's something that should have been fixed before the course was posted. One other annoyance was that each
+lesson contains the same boiler plate code:</p>
+<div class="codehilight code"><pre><span></span><span class="kn">import</span> <span class="nn">sanic</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">sanic</span><span class="o">.</span><span class="n">Sanic</span><span class="p">()</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">host</span><span class="o">=</span><span class="s2">"localhost"</span><span class="p">,</span> <span class="n">port</span><span class="o">=</span><span class="mi">8000</span><span class="p">)</span>
+</pre></div>
+<p>The lesson code will then go after the <code>app</code> variable is defined. The problem with this boiler plate code is that the instructor types it out every single lesson.
+Again, this is minor and it makes each lesson self contained, but I think having this code already written and adding in the important, lesson specific code,
+would have made the lesson more succinct. It also would have prevented a few typos that the instructor made and had to spend time correcting.</p>
+<h2 id="thoughts-on-the-lessons">Thoughts on the lessons<a class="headerlink" href="#thoughts-on-the-lessons" title="Permanent link">¶</a></h2>
+<p>The lessons themselves were effective at teaching a single Sanic feature. Some were a little short and almost all of them lacked any complexity you'd find in
+a real application, but they were quick ways to show how a feature worked and didn't spend a lot of time doing more than that. Lessons covered a variety of
+things you'd expect a web framework to handle:</p>
+<ul>
+<li>Request Parameters</li>
+<li>Aliases</li>
+<li>Listeners</li>
+<li>Configuration</li>
+<li>Middleware</li>
+<li>Cookies</li>
+<li>Streaming files</li>
+<li>Logging</li>
+<li>Class methodology</li>
+<li>Blueprints</li>
+<li>Request Types</li>
+<li>Error handling</li>
+</ul>
+<p>Ironically, in the error handling lesson, the instructor had an error in their code. This is great, because it helps to see how to troubleshoot errors that Sanic
+can throw. My issue is that the instructor left the time where he's looking at another monitor (probably reading documentation) in the video. I feel this time
+could have been removed and the troubleshooting steps still been effectively shown.</p>
+<h2 id="final-thoughts">Final Thoughts<a class="headerlink" href="#final-thoughts" title="Permanent link">¶</a></h2>
+<p>Overall, I was happy with this course. It's about two hours long and does a good job of showing various aspects of Sanic. I don't recall ever being pointed
+to the documentation, which is a little surprising, but it was easy enough to find. The course provides a good foundation of knowing what Sanic can handle. As
+of the time of this post, Udemy says there have been ten students that signed up for the course. That is low and the lack of Q&amp;A is also a bit concerning. I
+don't know how responsive the instructor is to student questions.</p>
+<p>If you have a few hours (and dollars, during a Udemy sale) to spare and wish to learn some basics about Sanic, this is a good course to take. If not, the
+<a href="https://github.com/r3ap3rpy/sanic-web-framework">GitHub repository</a> contains all of the lessons you go over.</p>
+<p><a href="https://ude.my/UC-LYP0VLF7"><img alt="Sanic - An Asynchronous Web Framework for Pythonistas Completion" src="https://andrewwegner.com/images/udemy-sanic.jpg"/></a></p>
+            </div>
+            <hr />
+            <div itemprop="author creator" itemscope itemtype="https://schema.org/Person">
+                    <span class="author_blurb"><a itemprop="url" href="https://andrewwegner.com/" rel="author"><span class="author_name" itemprop="name">Andy Wegner</span></a> -
+             is a father, an engineer and a computer scientist. He is interested in online
+            community building, tinkering with new code and building new applications.
+            He writes about his experiences with each of these.</span>
+
+            </div>
+            
+            
+            <hr/>
+            <aside>
+            <nav>
+            <ul class="articles-timeline">
+                <li class="previous-article">« <a href="https://andrewwegner.com/autobuild-pelican-blog.html" title="Previous: Autobuild and Deploy this Pelican Blog">Autobuild and Deploy this Pelican Blog</a></li>
+                <li class="next-article"><a href="https://andrewwegner.com/xps-tb16-bios-fix.html" title="Next: Fixing XPS 13 (Ubuntu) and Thunder Bolt 16 issue after BIOS update">Fixing XPS 13 (Ubuntu) and Thunder Bolt 16 issue after BIOS update</a> »</li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+            <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/Course" content="Sanic - An Asynchronous Web Framework for Pythonista" >
+                <meta itemprop="name" content="Sanic - An Asynchronous Web Framework for Pythonista" />
+                <meta itemprop="description" content="Sanic - An Asynchronous Web Framework for Pythonista" />
+                <meta itemprop="provider" content="Udemy" />
+            </div>
+            <h4>Published</h4>
+            <time itemprop="dateCreated" datetime="2019-01-23T10:00:00-06:00">Jan 23, 2019</time>
+            <h4>Score</h4>
+            <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+              <span itemprop="ratingValue">7.0</span>
+              <div class="stars-outer">
+                <div class="stars-inner"></div>
+              </div>
+              <meta itemprop="bestRating" content="10" />
+              <meta itemprop="worstRating" content="0" />
+            </div>
+<time itemprop="dateModified" datetime="2019-01-23T10:00:00-06:00">
+
+        <h4>Course Reviews</h4>
+    <ul class="multi-parts-list" id="series-parts">
+            <li >
+            <a href="https://andrewwegner.com/data-analysis-with-pandas-review.html" title="Review of Udemy's 'Data Analysis with Pandas' course">Part 1: Review of Udemy's 'Data Analysis with Pandas' course</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/loony-corn-machine-learning-review.html" title="Review of Udemy's 'From 0 to 1: Machine Learning, NLP and Python - Cut to the Chase' course">Part 2: Review of Udemy's 'From 0 to 1: Machine Learning, NLP and Python - Cut to the Chase' course</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/become-a-product-manager-review.html" title="Review of Udemy's 'Become a Product Manager  | Learn the Skills & Get the job' course">Part 3: Review of Udemy's 'Become a Product Manager  | Learn the Skills & Get the job' course</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/deep-learning-prereq-numpy.html" title="Review of Udemy's 'Deep Learning Prerequisites: The Numpy Stack in Python' course">Part 4: Review of Udemy's 'Deep Learning Prerequisites: The Numpy Stack in Python' course</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/deep-learning-prereq-linear-logistic-regression.html" title="Review of Udemy's Deep Learning Prerequisites - Linear and Logistic Regression courses">Part 5: Review of Udemy's Deep Learning Prerequisites - Linear and Logistic Regression courses</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/django-fullstack-bootcamp-course-review.html" title="Review of Udemy's Python and Django Full Stack Web Developer Bootcamp course">Part 6: Review of Udemy's Python and Django Full Stack Web Developer Bootcamp course</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/aws-serverless-apis-apps-review.html" title="Review of Udemy's AWS Serverless APIs & Apps - A Complete Introduction course">Part 7: Review of Udemy's AWS Serverless APIs & Apps - A Complete Introduction course</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/django-course-basic-to-advance.html" title="Review of Udemy's Django Course from Basics to Advance">Part 8: Review of Udemy's Django Course from Basics to Advance</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/learn-davinci-resolve-15-from-scratch.html" title="Review of Udemy's Learn DaVinci Resolve 15 from scratch">Part 9: Review of Udemy's Learn DaVinci Resolve 15 from scratch</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/git-45-minute-crash-course.html" title="Review of Udemy's renamed The 2018 Git Complete: 45 minute crash course using Angular.">Part 10: Review of Udemy's renamed The 2018 Git Complete: 45 minute crash course using Angular.</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/docker-essentials-course.html" title="Review of Udemy's Docker and Containers: The Essentials">Part 11: Review of Udemy's Docker and Containers: The Essentials</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/docker-swarm-beginner-advanced.html" title="Review of Udemy's Docker Swarm: Beginner + Advanced">Part 12: Review of Udemy's Docker Swarm: Beginner + Advanced</a>
+            </li>
+            <li  class="active-part">
+            Part 13: Review of Sanic - An Asynchronous Web Framework for Pythonistas Udemy course
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/software-testing-masterclass.html" title="Review of Software Testing Masterclass (2019) - From Notice to Expert Udemy course">Part 14: Review of Software Testing Masterclass (2019) - From Notice to Expert Udemy course</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/travis-ci-tutorial-review.html" title="Review of Travis CI Tutorial Udemy course">Part 15: Review of Travis CI Tutorial Udemy course</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/aws-certified-developer-review.html" title="Review of Ultimate AWS Certified Developer Associate 2019 course">Part 16: Review of Ultimate AWS Certified Developer Associate 2019 course</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/gitlab-manage-remote-team.html" title="Review of GitLab's "How to Manage a Remote Team" Coursera course">Part 17: Review of GitLab's "How to Manage a Remote Team" Coursera course</a>
+            </li>
+    </ul>
+            <h4>Category</h4>
+            <a class="category-link" href="https://andrewwegner.com/categories.html#review-ref">Review</a>
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article">
+                <li><a href="https://andrewwegner.com/tags.html#learning-ref">learning
+                    <span>17</span>
+</a></li>
+                <li><a href="https://andrewwegner.com/tags.html#review-ref">review
+                    <span>24</span>
+</a></li>
+                <li><a href="https://andrewwegner.com/tags.html#technical-ref">technical
+                    <span>41</span>
+</a></li>
+            </ul>
+<h4>Contact</h4>
+    <a href="https://stackoverflow.com/users/189134/andy" title="My Stack Overflow Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-stack-overflow sidebar-social-links"></i></a>
+    <a href="http://steamcommunity.com/id/InsaneMosquito/" title="My Steam Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-steam-square sidebar-social-links"></i></a>
+    <a href="https://stackoverflow.com/cv/andrewwegner" title="My Stack Overflow Jobs Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-stack-overflow sidebar-social-links"></i></a>
+        </div>
+        </section>
+</div>
+</section>
+<script type="text/javascript">
+  const starTotal = 10;
+  rating = 7.0;
+  starPercentage = `${((rating / starTotal) * 100)}%`;
+  document.querySelector(`.stars-inner`).style.width = starPercentage;
+</script>
+
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+    </ul>
+</div>
+</footer>            <script src="//code.jquery.com/jquery.min.js"></script>
+        <script src="https://use.fontawesome.com/e4a49a2d36.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+    
+    </body>
+    <!-- Theme: Elegant built for Pelican
+    License : http://oncrashreboot.com/pelican-elegant -->
+</html>

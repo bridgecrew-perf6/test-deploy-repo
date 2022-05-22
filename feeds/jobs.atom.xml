@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Ponderings of an Andy - Jobs</title><link href="https://andrewwegner.com/" rel="alternate"></link><link href="https://andrewwegner.com/feeds/jobs.atom.xml" rel="self"></link><id>https://andrewwegner.com/</id><updated>2017-11-28T09:01:00-06:00</updated><entry><title>How I found an awesome remote only job</title><link href="https://andrewwegner.com/how-i-found-an-awesome-remote-only-job.html" rel="alternate"></link><published>2017-11-28T09:01:00-06:00</published><updated>2017-11-28T09:01:00-06:00</updated><author><name>Andy Wegner</name></author><id>tag:andrewwegner.com,2017-11-28:/how-i-found-an-awesome-remote-only-job.html</id><summary type="html">&lt;p&gt;A brief walkthrough of my job hunting process&lt;/p&gt;</summary><content type="html">
+&lt;h2 id="introduction"&gt;Introduction&lt;a class="headerlink" href="#introduction" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;It's been over three months since I &lt;a href="https://andrewwegner.com/a-decade-at-caterpillar.html"&gt;left my position at Caterpillar&lt;/a&gt;, but
+leaving that job wasn't as simple as finding a position and changing jobs. Since
+my initial post that I was changing positions, I've gotten questions from several
+professional contacts that were also looking to move, but weren't entirely sure
+of the process I used to find my new job. I hope to answer some of those
+questions with this post.&lt;/p&gt;
+&lt;h2 id="new-job-criteria"&gt;New Job Criteria&lt;a class="headerlink" href="#new-job-criteria" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;One of the advantages I had during this search was that I had a job already. This
+allowed me to hunt for a job at my own pace. I didn't need a new position
+immediately. The slower pace also let me set my own criteria for what I wanted
+in a new job.&lt;/p&gt;
+&lt;h3 id="full-time-work-from-home"&gt;Full time work from home&lt;a class="headerlink" href="#full-time-work-from-home" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;At Caterpillar, I worked from home one to two days a week. I did this for several
+years and enjoyed it. I found that I was much more productive. I was able to focus
+on the work that needed to be done that day because the distractions of working
+in a cube farm weren't present. I didn't hear the side conversations that I wasn't
+involved in. I didn't get the "hey can you help me" questions that could be solved
+with a few seconds of trying some new code. I was able to concentrate on the task
+and not context switch frequently.&lt;/p&gt;
+&lt;p&gt;Additionally, the drive to and from the office was consuming almost two hours a
+day. In the winter, this was brutal. I was leaving as the sun rose and getting
+home well after it had set. I wasn't seeing the family.&lt;/p&gt;
+&lt;p&gt;My most important criteria was born from these two. I wanted to be able to work
+from home, full time. I was not opposed to the occasional yearly get together,
+but I didn't want to go into an office on a regular basis.&lt;/p&gt;
+&lt;h3 id="pay-and-benefits-must-improve"&gt;Pay and benefits must improve&lt;a class="headerlink" href="#pay-and-benefits-must-improve" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Caterpillar had great benefits. I don't remember ever worrying about health
+coverage, or prescription drug coverage. Pay was "industry average", which
+always seemed a bit lower than what sites like &lt;a href="https://www.glassdoor.com"&gt;glassdoor.com&lt;/a&gt; said I should
+make. Part of this was due to the yearly bonus I was eligible for. This was
+dependent on the business performance and not guaranteed. It also fluctuated a lot.
+The fact that Caterpillar went through nearly five years of poor market performance
+didn't help with those bonuses either.&lt;/p&gt;
+&lt;p&gt;A new position would need to meet or exceed the health benefits I had. The pay
+would need to improve too. Working from home would have the advantage of not
+paying for gas for the car as frequently. It'd also reduce the maintenance costs
+of putting so many miles on the car.&lt;/p&gt;
+&lt;h3 id="something-challenging"&gt;Something challenging&lt;a class="headerlink" href="#something-challenging" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;A new position is going to bring new challenges. It's new. You don't know the job.
+But, I wanted it to be challenging after I made it over that initial period of
+adjustment. I started looking for a job that would utilize my programming skills,
+leadership skills from the projects I've led, and maybe some of the community
+management skills I had from Team Vipers and various StackExchange communities I
+participate in.&lt;/p&gt;
+&lt;h2 id="the-search"&gt;The search&lt;a class="headerlink" href="#the-search" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I had my initial, if broad, criteria defined. The next step was to start the hunt.
+I utilized several sites to help with the initial search and to help narrow
+down the list of companies I'd really like to talk with.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://remoteok.io/"&gt;remote|ok&lt;/a&gt; - A job board that updates throughout the day, yet doesn't have
+ thousands of postings. It is specific to the "IT-ish" world. This was helpful
+ in finding companies that are open to remote jobs, because I'd see those companies
+ listings repeatedly over the course of my hunt.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://weworkremotely.com/"&gt;We Work Remotely&lt;/a&gt; - Another "IT-ish" job board that updates one or two
+ times a day. It has multiple categories of jobs and usually is pulling in
+ positions from other job boards. I preferred using this over the source sites
+ because this had a much smaller set of jobs and was restricted to my area of
+ interest.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://stackoverflow.com/jobs"&gt;Stack Overflow Jobs&lt;/a&gt; - I have a love/hate relationship with Stack Overflow
+ Jobs. On the one hand, it had &lt;a href="https://meta.stackoverflow.com/search?q=user%3A189134+%5Bjobs%5D"&gt;so many UI/UX issues&lt;/a&gt;. On the other hand,
+ it makes it really easy to find remote jobs and narrow it down to only jobs
+ I'm interested in. This is where I eventually found the posting for the job I
+ took.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If I'm being honest, my search for a job took over eighteen months. I found
+several jobs that were interesting and that I applied for, but the process was
+slow. There were several false starts, several job applications were ignored,
+and several interviews that didn't move forward at either my choice or the
+company's choice.&lt;/p&gt;
+&lt;h2 id="keeping-it-all-straight"&gt;Keeping it all straight&lt;a class="headerlink" href="#keeping-it-all-straight" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I put out a lot of job applications. This meant that I needed to adjust my
+resume and cover letter to each company. I needed to keep track of when I applied,
+who I interacted with, when interviews were scheduled, and when to give up on
+a job.&lt;/p&gt;
+&lt;p&gt;Enter: &lt;a href="https://trello.com/"&gt;Trello&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Trello Job Search Board" src="https://andrewwegner.com/images/trello-job-board.png"/&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Prep: This is a reminder to update resume and cover letter for each position,
+ and a list of the labels I utilize. The colored labels made it easy to identify
+ the current status, and whether this was a local or remote position.
+ After searching for about nine months, I started to consider office positions
+ in a few specific cities.&lt;/li&gt;
+&lt;li&gt;Interesting Positions: All new jobs I was considering would go here. It'd
+ consist of a link to the job posting. This was made really easy by utilizing
+ a &lt;a href="https://trello.com/add-card"&gt;bookmarklet&lt;/a&gt; provided by Trello that would send any link to this list on
+ this board.&lt;/li&gt;
+&lt;li&gt;Companies to watch: As my hunt continued, I found several companies that
+ seemed interesting or that had expressed interest in my skill set. I set up
+ links to the job pages for each of these companies so that I could see if anything
+ new and interesting was posted.&lt;/li&gt;
+&lt;li&gt;Submitted applications: After updating my resume and cover letter, filling out
+ the application forms, and pressing submit, a job posting would be moved from
+ "Interesting Positions" to "Submitted Applications".&lt;/li&gt;
+&lt;li&gt;Interviews: When a company liked an application and scheduled an interview, I'd
+ move the card to this step. Additionally, I'd add a comment with the name of the
+ people I'd be talking with - Human Resources representative, technical leads, managers -
+ so that I knew who I'd be talking with.&lt;/li&gt;
+&lt;li&gt;Recheck opening availability: If a card sat in "Interesting Positions" for a
+ period of time, I needed to check if the position  was still available before
+ finally submitting an application. There were many times that I'd mark a job
+ as interesting and then never apply. This list helped keep the viable list of
+ positions down to what was still available.&lt;/li&gt;
+&lt;li&gt;Cold Opportunities / Rejections: Just as I ignored positions, my applications
+ were ignored many times. Other times, an interview process would just fizzle out.
+ These seemed like the company didn't want to send a rejection notice and hoped
+ that ignoring me would provide a hint. It was unprofessional, and I wouldn't look
+ at those companies again. Other times, official rejection responses would be sent
+ back. I appreciated these, even though they were rejections.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="butler-for-trello"&gt;Butler for Trello&lt;a class="headerlink" href="#butler-for-trello" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The last list on the board was &lt;a href="https://butlerfortrello.com/"&gt;Butler for Trello&lt;/a&gt;. This is the system that
+automated a lot of the moving of jobs through the process and applying proper labels.
+When a new job was added to the "Interesting Positions" list, a due date was added
+for one month from now. Triggering off this due date, the butler would move cards
+to "Recheck" if the due date was exceeded.&lt;/p&gt;
+&lt;p&gt;When a card was moved to "Submitted Applications" the due date was changed to be
+three weeks from now. The thought here was that if I haded heard from the company
+in three weeks, I was probably being ignored and thus rejected.&lt;/p&gt;
+&lt;p&gt;This automation helped keep the board clean and usable. I was always presented
+with a list of openings I was interested in that were current. Moving through
+the interview process, the cards would be moved if a period of time was exceeded.
+I didn't need to remember to move stuff based on when I submitted an application,
+or when the last interview was. It just happened.&lt;/p&gt;
+&lt;p&gt;It was amazing.&lt;/p&gt;
+&lt;h2 id="getting-the-job"&gt;Getting the job&lt;a class="headerlink" href="#getting-the-job" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As I said above, this was a long process. That list of cold opportunities and
+rejections is pretty long. I talked to a lot of different companies and went
+through a lot of different interviews. Eventually, though, I found a job
+advertising a Senior Integration Tester at a new start up.&lt;/p&gt;
+&lt;p&gt;The interview process consisted of 4 interviews - one with the Senior Vice President
+of Development, and three individual interviews with team leads (my peers). I also
+needed to submit a project demonstrating how I'd test the API.&lt;/p&gt;
+&lt;p&gt;The interviews felt like conversations. We discussed my project. I had to defend
+a few decisions, but there were no wrong answers. Everyone was professional, yet
+personable.&lt;/p&gt;
+&lt;p&gt;After all of this, an offer was presented and after some last minute "do I really
+want to make a big change in my life" doubts were squashed, I accepted. I love the
+job. &lt;/p&gt;</content><category term="job"></category><category term="technical"></category></entry><entry><title>A reflection on my decade at Caterpillar</title><link href="https://andrewwegner.com/a-decade-at-caterpillar.html" rel="alternate"></link><published>2017-07-31T12:00:00-05:00</published><updated>2017-07-31T12:00:00-05:00</updated><author><name>Andy Wegner</name></author><id>tag:andrewwegner.com,2017-07-31:/a-decade-at-caterpillar.html</id><summary type="html">&lt;p&gt;My career at Caterpillar has come to an end. This is a reflection on the last decade.&lt;/p&gt;</summary><content type="html">
+&lt;h2 id="right-out-of-college"&gt;Right out of college&lt;a class="headerlink" href="#right-out-of-college" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Ten and a half years ago, I was the manager at the university help desk and less than six months from graduation. I hadn't
+heard back from the company I interned with. I was getting concerned. I went to the university's yearly career fair. I had
+companies I wanted to talk with, a few that looked interesting and a handful that I knew handed out decent freebies, so I'd
+stop by those too. After all, what college student is going to turn down a freebie?&lt;/p&gt;
+&lt;p&gt;I don't remember what company I was speaking with. I remember it wasn't going well. The interviewer was making unfunny jokes about
+the location of my home town and how far it was from their place of operations. I was slowly trying to extract myself from the
+conversation and really wanted to take my resume back too. Finally, I was free and turned to walk away and almost knocked over
+a recruiter from the next booth over. I apologized and she beamed at me. She also apologized but said it was because she'd been
+listening to the conversation I'd just had. I had sounded like someone she was looking to hire.&lt;/p&gt;
+&lt;p&gt;I stepped over to the booth and was introduced to the Logistics arm of Caterpillar. The interview on campus and follow up all day
+interviews about two weeks later went very well. I was offered a job at a salary I was happy with. It turned out that the
+company I'd had my internship with would eventually offer me a job and not even come close to the starting salary Caterpillar offered,
+which made me even more satisfied. I was to start in June following graduation.&lt;/p&gt;
+&lt;h2 id="the-first-day"&gt;The first day&lt;a class="headerlink" href="#the-first-day" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;My degree is not in Logistics or transportation management, yet that would be the team I was joining. I was given my boss's name. I showed up,
+bright eyed and ready to begin my career at a company known the world over, and was told by the receptionist that my boss no longer worked
+at this facility. She'd moved to a new area of the company less than two weeks ago.&lt;/p&gt;
+&lt;p&gt;Eventually, I was introduced to my new boss and the team. I was handed off to my team lead and we promptly started going over a gigantic system.
+I remember being overwhelmed and confused. My college degree didn't use terms like "bill of lading" or "route optimization". I tried to keep up.
+Eventually, lunch rolled around. I was handed a set of instructions on how to get myself added to the system and told to follow those after lunch.
+I was young and eager. I followed the directions. In doing so, I learned how to add myself to the system. The company also learned a lesson that day:
+their instructions were wrong. I followed exactly what I was given. In doing so, I locked out the system administrator account for the transportation
+management system. This was a 'mistake' that is still brought up a decade later. On day one, it's a horrifying experience. A bit later, it's a harmless
+first day mistake that took a few minutes for an experienced technician to resolve.&lt;/p&gt;
+&lt;p&gt;Fortunately, day two went much better.&lt;/p&gt;
+&lt;h2 id="a-revolving-door-of-bosses"&gt;A revolving door of bosses&lt;a class="headerlink" href="#a-revolving-door-of-bosses" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The first four years at Caterpillar, I met many great transportation consultants. They were very smart, had worked with many other companies and had
+been all over the world. I was a bit jealous of their ability to travel. These consultants taught me about managing transportation, about setting up
+a system for a new company, and helped me design and build tools to improve Caterpillar's ability to do the same. They also taught me something else
+about Caterpillar: if you aren't a Caterpillar employee, your opinion matters less. They are paid a &lt;em&gt;ton&lt;/em&gt; more than me and my more senior coworkers, but
+if an idea doesn't come from an employee, it's not given fair consideration by management.&lt;/p&gt;
+&lt;p&gt;The problem with this should be obvious. Those with the most experience setting up and managing systems to get parts and supplies on time to our facilities
+weren't able to provide suggestions for how to improve the system even more. System growth stagnated and my first boss was replaced. The second boss came
+from overseas and had experience we were trying to move to the US. Their assignment in the US lasted a year or so, and I was given a new boss again. A fourth
+boss was assigned about nine months before I eventually moved to another division. Four bosses in four years.&lt;/p&gt;
+&lt;p&gt;Through all of this, though, I built and managed some amazing applications. These included a brand new order processing system, a container management
+system, and a dashboard to unify all of the different systems into one quick at a glance system. During one of the boss transitions, I was moved to sit with
+my users and learn their pain points. This was one of the best decisions that came out of these first four years. By sitting with the users and talking with
+them daily, I learned exactly what they had problems with. I designed simple work-arounds, automated external tools and ways to improve their pain points. My
+yearly review reflected how much the customers appreciated my help and me sitting with them.&lt;/p&gt;
+&lt;p&gt;Eventually, I was moved back with the rest of the IT team. At that point, I felt a bit like an outsider. I'd been sitting with my users for over a year. None of
+my coworkers had been given the opportunity to do so. I was moving from the trenches back to the ivory tower. I lost the interaction with my users and I think
+my team suffered because of this. We were slower to respond to issues, because now the users had to go through the official channels of calling the helpdesk
+and waiting until a member of my team was assigned the problem to work with. Simple questions couldn't be answered with a two minute conversation.&lt;/p&gt;
+&lt;p&gt;During this move, a third party logistics service was brought in to 'improve' our processes. It turns out that a start up company without a large customer doesn't
+know how to manage transportation for a company that spends hundreds of millions of dollars a year to move stuff around. The relationship didn't improve over time.
+Instead, each side attempted blame the other for the smallest of issues. After being assigned the task of ensuring our data was transferred every day by an early time,
+I started looking for another position in the company. I was tried of getting up early and missing time with the family.&lt;/p&gt;
+&lt;h2 id="the-long-drive"&gt;The long drive&lt;a class="headerlink" href="#the-long-drive" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I found a new position fairly quickly. It was recommended to me by a friend I knew outside of work. It was a Python development position for a tool used by the entire
+division. I interviewed, was offered the job, and then told by my boss I couldn't move yet. Despite asking ahead of time, the answer had changed once I was actually
+offered the job. I spent months waiting to be allowed to move. Eventually, I was allowed to move.&lt;/p&gt;
+&lt;p&gt;The one down side of this new job was its distance from my house. My first job was about 15-20 minutes away. This new one was 45 minutes away, on a good traffic day.
+It was worth it though. I liked the job better. I worked much more closely with my users and over the next six years the job evolved from supporting a desktop application
+to building an entire analytic environment. We built a system to track failure reasons and determine who was responsible for paying a warranty (saved millions of dollars every year since implementation), a predictive failure dashboard allowing service engineers to reach out to customers before something happened, expand from desktop to web
+development and deploy a large expensive environment for hosting tons of sensor data from machines around the world.&lt;/p&gt;
+&lt;h2 id="the-down-turn"&gt;The down turn&lt;a class="headerlink" href="#the-down-turn" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Unfortunately, the economic situation for Caterpillar, especially after the down turn, was always "it's going to get worse before it gets better". For years, I watched
+rounds of layoffs. I watched employees with decades of experience be escorted out while under-performing employees remained in place. Decades and decades of knowledge
+walked out the door, never to return and were replaced, most often, with nothing.&lt;/p&gt;
+&lt;p&gt;My team avoided the brunt of these layoffs, but they were never far from our doorstep. The looming threat of "maybe next time", was always there. With a large number
+of layoffs, it's not surprising that someone would walk out with confidential information. It happened. IT and HR cracked down on the rest of us. First came the removal
+of little things - USB access - then came the increased security on the laptops. Security software that took 4GB of memory on a fresh install. On day one of a new machine,
+half of your system resources went to "security". Restarting your computer was a 15 minute process due to this software.&lt;/p&gt;
+&lt;p&gt;Then HR stated that you &lt;em&gt;must&lt;/em&gt; be in the building 8 hours a day. Working from home in the evenings didn't count. This was the straw that started my job search. With a 45-60
+minute drive each way, I'd come to an agreement with my boss that I'd spend a majority of the day in the office but do releases in the evenings from home. This allowed me to
+be with my family at nights and finish the day after they'd gone to bed. HR's new rules eliminated this. So, I worked out the ability to work from home two days a week. This
+still wasn't ideal for those three nights that I was home later, but it improved home life a bit, for a while.&lt;/p&gt;
+&lt;p&gt;The kids were growing and starting to be involved in more after school activities. Activities that I had to pick and choose whether or not I could attend due to this
+decree to keep my chair warm in the office. I hated missing these things. The kids hated me missing them. Then HR "reminded" us that it was still required that we are
+in the office for 8 hours a day. This didn't feel like a professional work environment any more. It felt like we were being treated like little kids by HR.&lt;/p&gt;
+&lt;h2 id="the-new-job"&gt;The new job&lt;a class="headerlink" href="#the-new-job" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Eventually I found a new job. My first day is, officially, tomorrow. Today is my last day at Caterpillar. It is unfortunate that I have to leave. I really enjoyed the work
+and the people. My managers have worked with me (and the rest of my team) to help us be as flexible as possible. But, I can't ignore that I'm missing out on family
+things more and more. Caterpillar says things like "work-life balance", but I'm not sure they actually believe that any more.&lt;/p&gt;
+&lt;p&gt;If they do, it's not a "work life balance" for families where both parents are employed - especially if they aren't both employed at Caterpillar. A week before I found
+the new job, a new flexible work schedule was announced where employees could work 80 hours over the course of 9 days instead of the usual 10, giving you every other Friday
+off. At first glance, that sounds appealing. But, after minute or so of figuring of how it works there is a fatal flaw: I'd be home even later over the course of 9 days and
+then be home on a Friday - when the rest of the family is at work or school. That doesn't solve anything for me.&lt;/p&gt;
+&lt;p&gt;The new job is a full time remote position. I'll be home every day. I can step out for an hour to go to a class room party or take a morning off to go on a field trip. The flexibility I've been told about is amazing. The official vacation policy is:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Employees have the authority to use their judgment and discretion and take temporary periods of time away from work as vacation, without loss of pay, as their work permits.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sold!&lt;/p&gt;
+&lt;h2 id="goodbye-yellow"&gt;Goodbye Yellow!&lt;a class="headerlink" href="#goodbye-yellow" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Caterpillar has been my home for a decade. Despite my complaints about work life balance, above, I'm not leaving the company with malice or ill-intent. Caterpillar is a
+large company and will continue long after I've left. The people that are there, especially my coworkers, are intelligent people who build amazing things. Unfortunately, 
+in my case, Caterpillar seems to have forgotten that those intelligent people like to spend time doing things other than keeping their chairs warm.&lt;/p&gt;
+&lt;p&gt;I am thankful for the decade of experiences, the professional relationships, and chances to work on interesting projects. Caterpillar, I wish you well in the future. If you
+are going to listen to one piece of advice from a former employee, I recommend you take a look at those employees in your work force where the household is a dual career house.
+Your work life balance initiatives do not appear to account for those employees and it is for that reason that you lost me.&lt;/p&gt;
+&lt;p&gt;Goodbye Yellow. I'll always remember my time with you.&lt;/p&gt;</content><category term="job"></category></entry><entry><title>How not to recruit me</title><link href="https://andrewwegner.com/how-not-to-recruit-me.html" rel="alternate"></link><published>2015-10-10T14:20:00-05:00</published><updated>2015-10-10T14:20:00-05:00</updated><author><name>Andy Wegner</name></author><id>tag:andrewwegner.com,2015-10-10:/how-not-to-recruit-me.html</id><summary type="html">&lt;p&gt;In which I discuss ways not to send me a recruitment message if you are interested in me working for you&lt;/p&gt;</summary><content type="html">
+&lt;h2 id="introduction"&gt;Introduction&lt;a class="headerlink" href="#introduction" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;A few days ago, on Meta.StackOverflow, a product manager &lt;a href="http://meta.stackoverflow.com/q/307674/189134"&gt;asked&lt;/a&gt; for feedback on how they could make first contact between employers and potential employees more valuable to the potential employee. I provided my &lt;a href="http://meta.stackoverflow.com/a/307687/189134"&gt;feedback&lt;/a&gt;. I've reposted it below, with some minor changes to further explain my ideals. &lt;/p&gt;
+&lt;p&gt;The summary of this entire post is: If I have to spend time to make my resume jump out and catch &lt;em&gt;your&lt;/em&gt; attention, I expect you to spend just a little bit of time telling me about your company and the position you are recruiting for. I don't think a few sentences with these details is that much ask.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h2 id="what-i-want-to-see"&gt;What I want to see&lt;a class="headerlink" href="#what-i-want-to-see" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I want to know what the company does and I want to know who you are. I also want to know what positions you are looking to fill and a few details about the position are also important.&lt;/p&gt;
+&lt;h2 id="messages-ive-recieved"&gt;Messages I've recieved&lt;a class="headerlink" href="#messages-ive-recieved" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="message-1"&gt;Message 1&lt;a class="headerlink" href="#message-1" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is the start of a good message:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Message 1" src="https://andrewwegner.com/images/message1.png"/&gt;&lt;/p&gt;
+&lt;p&gt;It has the following good elements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Who the recruiter is&lt;/li&gt;
+&lt;li&gt;Position they are recruiting for &lt;/li&gt;
+&lt;li&gt;A company name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It does not offer the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What the company does (other than "build great software").&lt;/li&gt;
+&lt;li&gt;Explanation which of my skills or experiences they are interested in. Are you interested in my Python answers on Stack Overflow? My projects on Github? My PHP experience from years ago? This is &lt;em&gt;important&lt;/em&gt; to know. If the company is looking to recruit me for knowledge I shared years ago (ie. PHP in my case), I'd probably be less useful right now because I haven't used PHP in years. I have not kept up with recent changes to the language or various frameworks.&lt;/li&gt;
+&lt;li&gt;Explanation of what the position will do, projects I'll be involved in, or challenges they are facing now that I'll help solve.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I did not respond to this position. &lt;/p&gt;
+&lt;h3 id="message-2"&gt;Message 2&lt;a class="headerlink" href="#message-2" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Message 2" src="https://andrewwegner.com/images/message2.png"/&gt;&lt;/p&gt;
+&lt;p&gt;This has the following useful elements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I know your name, position and company. &lt;/li&gt;
+&lt;li&gt;Due to who the company was in this particular message, I am even vaguely aware of what the company does. Name recognition helps, but is not very high on my list of &lt;em&gt;"important things"&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What this does not have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A description of the position. "Looking for top talent...to make a significant impact on our systems". Ok. How? What will I be doing?&lt;/li&gt;
+&lt;li&gt;How did you find me?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I actually talked to this recruiter and I have to say that I'm both disappointed in the company and myself for not noticing some red flags in this message. This wasn't an interview for a specific position. This was a general recruiting email and I suspect it was sent to multiple users. Flags that I missed in the message:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lack of any details at all and use of buzzwords ("top technical talent", "fast paced", "start-up like", "eCommerce industry").&lt;/li&gt;
+&lt;li&gt;Discussion about personal career goals and technical background. Some of my back ground should be obvious from my Careers profile, SO profile and links on both. More importantly, I missed the "personal career goals" flag. The details they wanted were to see if my goals aligned with any open positions they had at the time. &lt;/li&gt;
+&lt;li&gt;When the discussion took place, the recruiter knew little more than my name. There were no questions about my careers profile (at the very least) or other projects I mentioned on my profile. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Shame on me.&lt;/p&gt;
+&lt;h3 id="message-3"&gt;Message 3&lt;a class="headerlink" href="#message-3" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Message 3" src="https://andrewwegner.com/images/message3.png"/&gt;&lt;/p&gt;
+&lt;p&gt;This message isn't useful to me at all.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Who is this company and what do they do? &lt;/li&gt;
+&lt;li&gt;I have no experience in mobile apps. How did they find me?&lt;/li&gt;
+&lt;li&gt;What is Chad's relationship to the company?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I suspect this message showed up because I work for one of their largest clients, live 10 miles from their office and work, literally, right across the street from them. I didn't know that at the time though. I had to ask a co-worker if they'd ever heard of the company. They pointed out their office at lunch.&lt;/p&gt;
+&lt;p&gt;I did not respond this this message.&lt;/p&gt;
+&lt;h3 id="message-4"&gt;Message 4&lt;a class="headerlink" href="#message-4" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Message 4" src="https://andrewwegner.com/images/message4.png"/&gt;&lt;/p&gt;
+&lt;p&gt;This message is worthless. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You are seeking employees who are willing to relocate. Great. Good for you. Are you interested in my skills or just a warm body to keep your chairs warm?&lt;/li&gt;
+&lt;li&gt;No details about the company, other than a link to a web site&lt;/li&gt;
+&lt;li&gt;No name at all. Who am I talking to? &lt;/li&gt;
+&lt;li&gt;No details about the job. I hope they found someone to hold their seats to the floor 8 hours a day. If not, I recommend large rocks. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="summary-of-the-messages"&gt;Summary of the messages&lt;a class="headerlink" href="#summary-of-the-messages" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I need &lt;em&gt;details&lt;/em&gt; and I need details more than what the salary is going to be. Obviously, I need to do some research about your company, if I've never heard of you. But, throw me a bone. Tell me a bit about your self. I had to make a fancy resume to get you to reach out to me. I did something that caught your eye. Now, do something that will catch mine. &lt;/p&gt;
+&lt;p&gt;I don't need to work at a company that is the next Google or Apple or start up flush with cash. But, I do want to know about the company before I talk to you. If you can't spend a few seconds explaining a bit about the company, I don't want to talk with you. I don't think a few sentences is that much to offer:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"Here at COMPANY NAME, we are looking for a POSITION with skills in LANGUAGE or experience in INDUSTRY. I see you have both and think you'd be able to help TEAM NAME with their on going project of MAKING THE WORLD BETTER. Your PROJECT ON GITHUB looks like you've dealt with aspects of this problem before. We've gotten some press recently about our innovations in this area (check them out HERE)."&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr/&gt;
+&lt;h2 id="how-to-get-my-attention"&gt;How to get my attention&lt;a class="headerlink" href="#how-to-get-my-attention" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I think the post above makes it clear what &lt;em&gt;doesn't&lt;/em&gt; work. The companies that I've responded to (other than message 2, above) have all done the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Indicate they've at least looked at my resume by commenting on some aspect of it. I've had recruiters mention projects I've done, jobs I've held, or individual bullet points that caught their attention. This is great. It means you aren't reaching out to me because I happened to hit all of your keywords when the resume passed through your Human Resources department.&lt;/li&gt;
+&lt;li&gt;Provide a short description of the job they want to fill. I don't need a full job posting. A link to such a posting is sufficient. However, if you could summarize it in a sentence or two, that'd make both of our lives easier. Reading full job descriptions isn't the most fun thing in the world and often have industry (or even company) specific acronyms. That isn't helpful to either of us, because I may not know them. Just tell me what your team does within the company. That's good enough to get my attention.&lt;/li&gt;
+&lt;li&gt;Talk to me like a person, not some number that a database search returned. As a hint, if you can figure out that I like to go by "Andy", instead of "Andrew", you've already done a far better job than most recruiters I've spoken with. &lt;/li&gt;
+&lt;/ul&gt;</content><category term="meta"></category><category term="job"></category></entry></feed>
