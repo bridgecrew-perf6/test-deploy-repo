@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Andy Wegner" />
+
+        <meta property="og:type" content="article" />
+
+<meta name="keywords" content="review, technical, learning, Review, " />
+
+<meta property="og:title" content="Review of Udemy&#39;s AWS Serverless APIs &amp; Apps - A Complete Introduction course "/>
+<meta property="og:url" content="https://andrewwegner.com/aws-serverless-apis-apps-review.html" />
+<meta property="og:description" content="My review of the AWS Serverless APIs &amp; Apps course on Udemy." />
+<meta property="og:site_name" content="Ponderings of an Andy" />
+<meta property="og:article:author" content="Andy Wegner" />
+<meta property="og:article:published_time" content="2017-10-20T11:17:00-05:00" />
+<meta name="twitter:title" content="Review of Udemy&#39;s AWS Serverless APIs &amp; Apps - A Complete Introduction course ">
+<meta name="twitter:description" content="My review of the AWS Serverless APIs &amp; Apps course on Udemy.">
+
+        <title>Review of Udemy&#39;s AWS Serverless APIs &amp; Apps - A Complete Introduction course  · Ponderings of an Andy
+</title>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://andrewwegner.com/theme/css/pygments.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://andrewwegner.com/theme/tipuesearch/tipuesearch.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://andrewwegner.com/theme/css/elegant.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://andrewwegner.com/theme/css/custom.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://andrewwegner.com/theme/css/keys.css" media="screen">
+        <link href="https://andrewwegner.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ponderings of an Andy - Full Atom Feed" />
+
+<script type="text/javascript">
+    window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+      heap.load("653100411");
+</script>
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="https://andrewwegner.com/"><span class=site-name>Ponderings of an Andy</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="https://andrewwegner.com">Home</a></li>
+                            <li ><a href="https://andrewwegner.com/categories.html">Categories</a></li>
+                            <li ><a href="https://andrewwegner.com/tags.html">Tags</a></li>
+                            <li ><a href="https://andrewwegner.com/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="https://andrewwegner.com/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<section itemscope itemtype="https://schema.org/Review">
+<meta itemprop="headline" content="Review of Udemy&#39;s AWS Serverless APIs &amp; Apps - A Complete Introduction course" />
+<time itemprop="datePublished" datetime="2017-10-20T11:17:00-05:00">
+<meta itemprop="publisher" content="Andy Wegner" />
+<link rel="canonical" href="https://andrewwegner.com/aws-serverless-apis-apps-review.html" />
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+    <h1><a href="https://andrewwegner.com/aws-serverless-apis-apps-review.html"> Review of Udemy's AWS Serverless APIs & Apps - A Complete Introduction course  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid" id="table-of-contents">
+    <div class="span2 table-of-content">
+        <nav>
+        <h4>Contents</h4>
+        <div class="toc">
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#thoughts-on-the-course">Thoughts on the course</a></li>
+<li><a href="#final-thoughts">Final Thoughts</a></li>
+</ul>
+</div>
+        </nav>
+    </div>
+    <div class="span8 article-content">
+
+            
+            <div itemprop="reviewBody mainEntityOfPage">
+            
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">¶</a></h2>
+<p>I've been involved with the <a href="https://andrewwegner.com/can-a-machine-be-taught-to-flag-spam-automatically.html">SmokeDetector</a> spam hunting project for several years. In that time It's grown from
+a small Python script to a large combination of Python, Ruby and user scripts. The infrastructure hasn't really changed
+in that time, though, and it's starting to show. SmokeDetector, the Python script, is run by multiple users so that
+random network problems that kill the instance don't take the entire system off line. Arguably, the project should
+work on fixing this instability, but the alternative that we came up with works too.</p>
+<p>At least it did. Now this distributed way of running is starting to cause issues. Keeping each instance in sync
+with one another is a very difficult problem. We've built a decent solution to this for handling spam patterns,
+but we've failed to replicate this for other things like permission sets or notifications. Adding this involves
+integration with GitHub and a series of new commands. It's painful.</p>
+<p>One of the recent discussions to solve this problem was a centralized database. That brings me to this course.</p>
+<p>The <a href="https://ude.my/UC-1ESFUC2V">AWS Serverless APIs &amp; Apps - A Complete Introduction</a> by Maximilian Schwarzmüller on Udemy
+looked like a good overview for AWS lambda and DynamoDB, two solutions the SmokeDetector project was looking
+into using.</p>
+<h2 id="thoughts-on-the-course">Thoughts on the course<a class="headerlink" href="#thoughts-on-the-course" title="Permanent link">¶</a></h2>
+<p>This course provides a good overview of Amazon's API Gateway, AWS Lambda and several other Amazon services. There
+is a little bit of coding involved - using NodeJS - but a large majority is dedicated to working in the various Amazon
+consoles. Except for one optional lecture, the entire course can be completed using Amazon's free tier. This is
+great for a course and one of the factors I used to determine if I really wanted to take the course. The instructor
+is very clear, throughout the course, which aspects cost additional money so that no unexpected charges show up
+from Amazon.</p>
+<p>The course covers the API Gateway, AWS permissions, AWS Lambda, body mapping templates, DynamoDB, authentication with
+Cognito and hosting a serverless SPA. At first glance this seems like a lot to cover in an 8 hour course. The instructor
+has broken these into small digestible lectures that do a good job of introducing each new service, explaining the theory
+behind each and then using the service to implement functionality into the course long project.</p>
+<p>A course long project is a good way to show how each of these Amazon services are useful to a larger project. Instead of
+focusing on a small example project where it is difficult to expand the course work into the real world, a real world
+project with various requirements is used. This project uses each of the services I mentioned above in a natural way.
+Implementing new functionality doesn't feel forced, instead it is something that users would expect from a modern application.</p>
+<p>I am very happy with this course. Everything was very well presented. The project was useful because I can easily understand
+how each of the Amazon services function. I also have a good idea how the console works and how to troubleshoot problems
+because of the work that was done in this course.</p>
+<p>My only complaint with regard to this course is that the video lectures are interrupted with text based lectures consisting
+of more details and links to documentation. I appreciate these links and used several of them, but the interruption of the
+videos to present these broke the nice flow of the lectures. Presenting these links at the end of the section, I think would be
+less of an interruption. This was a minor thing, though, and doesn't take away from how much I enjoyed the course.</p>
+<h2 id="final-thoughts">Final Thoughts<a class="headerlink" href="#final-thoughts" title="Permanent link">¶</a></h2>
+<p>I feel that I have a decent understanding of Amazon's services at this point. I am looking forward to applying this new
+knowledge and, hopefully, improving the SmokeDetector infrastructure at the same time. I highly recommend this course
+if you are thinking of migrating anything to Amazon. I feel much more comfortable about moving aspects of a project
+to this new solution.</p>
+<hr/>
+<p><a href="https://ude.my/UC-1ESFUC2V"><img alt="AWS Serverless APIs and Apps Completion" src="https://andrewwegner.com/images/udemy-aws-serverless-apis-apps.jpg"/></a></p>
+            </div>
+            <hr />
+            <div itemprop="author creator" itemscope itemtype="https://schema.org/Person">
+                    <span class="author_blurb"><a itemprop="url" href="https://andrewwegner.com/" rel="author"><span class="author_name" itemprop="name">Andy Wegner</span></a> -
+             is a father, an engineer and a computer scientist. He is interested in online
+            community building, tinkering with new code and building new applications.
+            He writes about his experiences with each of these.</span>
+
+            </div>
+            
+            
+            <hr/>
+            <aside>
+            <nav>
+            <ul class="articles-timeline">
+                <li class="previous-article">« <a href="https://andrewwegner.com/collecting-diamonds-on-stack-exchange.html" title="Previous: Collecting Diamonds on Stack Exchange">Collecting Diamonds on Stack Exchange</a></li>
+                <li class="next-article"><a href="https://andrewwegner.com/how-i-found-an-awesome-remote-only-job.html" title="Next: How I found an awesome remote only job">How I found an awesome remote only job</a> »</li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+            <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/Course" content="AWS Serverless APIs &amp; Apps - A Complete Introduction" >
+                <meta itemprop="name" content="AWS Serverless APIs &amp; Apps - A Complete Introduction" />
+                <meta itemprop="description" content="AWS Serverless APIs &amp; Apps - A Complete Introduction" />
+                <meta itemprop="provider" content="Udemy" />
+            </div>
+            <h4>Published</h4>
+            <time itemprop="dateCreated" datetime="2017-10-20T11:17:00-05:00">Oct 20, 2017</time>
+            <h4>Score</h4>
+            <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+              <span itemprop="ratingValue">8.5</span>
+              <div class="stars-outer">
+                <div class="stars-inner"></div>
+              </div>
+              <meta itemprop="bestRating" content="10" />
+              <meta itemprop="worstRating" content="0" />
+            </div>
+<time itemprop="dateModified" datetime="2017-10-20T11:17:00-05:00">
+
+        <h4>Course Reviews</h4>
+    <ul class="multi-parts-list" id="series-parts">
+            <li >
+            <a href="https://andrewwegner.com/data-analysis-with-pandas-review.html" title="Review of Udemy's 'Data Analysis with Pandas' course">Part 1: Review of Udemy's 'Data Analysis with Pandas' course</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/loony-corn-machine-learning-review.html" title="Review of Udemy's 'From 0 to 1: Machine Learning, NLP and Python - Cut to the Chase' course">Part 2: Review of Udemy's 'From 0 to 1: Machine Learning, NLP and Python - Cut to the Chase' course</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/become-a-product-manager-review.html" title="Review of Udemy's 'Become a Product Manager  | Learn the Skills & Get the job' course">Part 3: Review of Udemy's 'Become a Product Manager  | Learn the Skills & Get the job' course</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/deep-learning-prereq-numpy.html" title="Review of Udemy's 'Deep Learning Prerequisites: The Numpy Stack in Python' course">Part 4: Review of Udemy's 'Deep Learning Prerequisites: The Numpy Stack in Python' course</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/deep-learning-prereq-linear-logistic-regression.html" title="Review of Udemy's Deep Learning Prerequisites - Linear and Logistic Regression courses">Part 5: Review of Udemy's Deep Learning Prerequisites - Linear and Logistic Regression courses</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/django-fullstack-bootcamp-course-review.html" title="Review of Udemy's Python and Django Full Stack Web Developer Bootcamp course">Part 6: Review of Udemy's Python and Django Full Stack Web Developer Bootcamp course</a>
+            </li>
+            <li  class="active-part">
+            Part 7: Review of Udemy's AWS Serverless APIs & Apps - A Complete Introduction course
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/django-course-basic-to-advance.html" title="Review of Udemy's Django Course from Basics to Advance">Part 8: Review of Udemy's Django Course from Basics to Advance</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/learn-davinci-resolve-15-from-scratch.html" title="Review of Udemy's Learn DaVinci Resolve 15 from scratch">Part 9: Review of Udemy's Learn DaVinci Resolve 15 from scratch</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/git-45-minute-crash-course.html" title="Review of Udemy's renamed The 2018 Git Complete: 45 minute crash course using Angular.">Part 10: Review of Udemy's renamed The 2018 Git Complete: 45 minute crash course using Angular.</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/docker-essentials-course.html" title="Review of Udemy's Docker and Containers: The Essentials">Part 11: Review of Udemy's Docker and Containers: The Essentials</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/docker-swarm-beginner-advanced.html" title="Review of Udemy's Docker Swarm: Beginner + Advanced">Part 12: Review of Udemy's Docker Swarm: Beginner + Advanced</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/sanic-webframework-review.html" title="Review of Sanic - An Asynchronous Web Framework for Pythonistas Udemy course">Part 13: Review of Sanic - An Asynchronous Web Framework for Pythonistas Udemy course</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/software-testing-masterclass.html" title="Review of Software Testing Masterclass (2019) - From Notice to Expert Udemy course">Part 14: Review of Software Testing Masterclass (2019) - From Notice to Expert Udemy course</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/travis-ci-tutorial-review.html" title="Review of Travis CI Tutorial Udemy course">Part 15: Review of Travis CI Tutorial Udemy course</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/aws-certified-developer-review.html" title="Review of Ultimate AWS Certified Developer Associate 2019 course">Part 16: Review of Ultimate AWS Certified Developer Associate 2019 course</a>
+            </li>
+            <li >
+            <a href="https://andrewwegner.com/gitlab-manage-remote-team.html" title="Review of GitLab's "How to Manage a Remote Team" Coursera course">Part 17: Review of GitLab's "How to Manage a Remote Team" Coursera course</a>
+            </li>
+    </ul>
+            <h4>Category</h4>
+            <a class="category-link" href="https://andrewwegner.com/categories.html#review-ref">Review</a>
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article">
+                <li><a href="https://andrewwegner.com/tags.html#learning-ref">learning
+                    <span>17</span>
+</a></li>
+                <li><a href="https://andrewwegner.com/tags.html#review-ref">review
+                    <span>24</span>
+</a></li>
+                <li><a href="https://andrewwegner.com/tags.html#technical-ref">technical
+                    <span>41</span>
+</a></li>
+            </ul>
+<h4>Contact</h4>
+    <a href="https://stackoverflow.com/users/189134/andy" title="My Stack Overflow Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-stack-overflow sidebar-social-links"></i></a>
+    <a href="http://steamcommunity.com/id/InsaneMosquito/" title="My Steam Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-steam-square sidebar-social-links"></i></a>
+    <a href="https://stackoverflow.com/cv/andrewwegner" title="My Stack Overflow Jobs Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-stack-overflow sidebar-social-links"></i></a>
+        </div>
+        </section>
+</div>
+</section>
+<script type="text/javascript">
+  const starTotal = 10;
+  rating = 8.5;
+  starPercentage = `${((rating / starTotal) * 100)}%`;
+  document.querySelector(`.stars-inner`).style.width = starPercentage;
+</script>
+
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+    </ul>
+</div>
+</footer>            <script src="//code.jquery.com/jquery.min.js"></script>
+        <script src="https://use.fontawesome.com/e4a49a2d36.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+    
+    </body>
+    <!-- Theme: Elegant built for Pelican
+    License : http://oncrashreboot.com/pelican-elegant -->
+</html>
