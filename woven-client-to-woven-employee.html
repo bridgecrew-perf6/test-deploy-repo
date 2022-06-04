@@ -80,13 +80,12 @@
 <ul>
 <li><a href="#before-we-begin">Before we begin...</a></li>
 <li><a href="#the-conversation">The conversation</a><ul>
-<li><a href="#thanks-for-sitting-down-with-me-andy-could-you-tell-me-a-little-bit-about-your-background">Thanks for sitting down with me, Andy. Could you tell me a little bit about your background?</a></li>
-<li><a href="#had-you-used-a-technical-assessment-tool-before-woven">Had you used a technical assessment tool before Woven?</a></li>
-<li><a href="#did-you-hear-any-feedback-from-candidates-about-their-experience-using-the-platform">Did you hear any feedback from candidates about their experience using the platform?</a></li>
-<li><a href="#im-sure-as-the-candidate-it-doesnt-feel-good-to-get-ghosted-or-to-spend-time-doing-something-that-doesnt-matter-especially-when-youre-really-experienced">I’m sure as the candidate it doesn’t feel good to get ghosted or to spend time doing something that doesn’t matter. Especially when you’re really experienced.</a></li>
-<li><a href="#i-imagine-a-lot-of-people-in-your-position-would-say-that-why-would-you-give-a-candidate-something-that-you-wouldnt-want-to-take">I imagine a lot of people in your position would say that. Why would you give a candidate something that you wouldn’t want to take?</a></li>
-<li><a href="#tell-me-about-that-transitioning-from-using-woven-as-a-service-to-going-through-the-interview-process-and-becoming-an-employee">Tell me about that — transitioning from using Woven as a service to going through the interview process and becoming an employee.</a></li>
-<li><a href="#as-someone-whos-been-on-both-sides-of-the-mirror-what-would-you-say-to-other-vps-is-the-main-benefit-of-using-woven">As someone who’s been on both sides of the mirror, what would you say to other VPs is the main benefit of using Woven?</a></li>
+<li><a href="#background">Background</a></li>
+<li><a href="#tooling-before-woven">Tooling before Woven</a></li>
+<li><a href="#candidate-experience">Candidate experience</a></li>
+<li><a href="#puzzles">Puzzles</a></li>
+<li><a href="#moving-to-woven">Moving to Woven</a></li>
+<li><a href="#other-side-of-the-mirror">Other side of the mirror</a></li>
 </ul>
 </li>
 <li><a href="#thats-a-wrap">That's a wrap</a></li>
@@ -101,16 +100,18 @@
             
 <h2 id="before-we-begin">Before we begin...<a class="headerlink" href="#before-we-begin" title="Permanent link">¶</a></h2>
 <p>This post is republished from <a href="https://www.woventeams.com/the-other-side-of-the-mirror-how-andy-wegner-went-from-woven-client-to-woven-employee/">Woven's blog</a>.</p>
-<p>Back in April 2022, I left my position at PacketFabric, which I've talked about a <a href="https://andrewwegner.com/a-decade-at-caterpillar.html#the-new-job">handful of times</a>, <a href="https://andrewwegner.com/how-i-found-an-awesome-remote-only-job.html">previously</a>. At some point I'll do a post-mortem on the job and why it was time to move on, but that's not for today. This post is about how I went from a customer of <a href="https://www.woventeams.com/">Woven</a> to Woven's Director of Engineering. </p>
+<p>Back in April 2022, I left my position at PacketFabric, which I've talked about a <a href="https://andrewwegner.com/a-decade-at-caterpillar.html#the-new-job">handful of times</a>, <a href="https://andrewwegner.com/how-i-found-an-awesome-remote-only-job.html">previously</a>. At some point I'll do a post-mortem on the job and why it was time to move on, but that's not for today. This post is about how I went from a customer of <a href="https://www.woventeams.com/">Woven</a> to Woven's Director of Engineering.</p>
 <p>As I spin up in this role, I'm looking forward to growing with the team and helping other engineering leaders find amazing new members for their team.</p>
 <p>Read on!</p>
 <h2 id="the-conversation">The conversation<a class="headerlink" href="#the-conversation" title="Permanent link">¶</a></h2>
-<h3 id="thanks-for-sitting-down-with-me-andy-could-you-tell-me-a-little-bit-about-your-background">Thanks for sitting down with me, Andy. Could you tell me a little bit about your background?<a class="headerlink" href="#thanks-for-sitting-down-with-me-andy-could-you-tell-me-a-little-bit-about-your-background" title="Permanent link">¶</a></h3>
+<h3 id="background">Background<a class="headerlink" href="#background" title="Permanent link">¶</a></h3>
+<p>Interviewer: Thanks for sitting down with me, Andy. Could you tell me a little bit about your background?</p>
 <blockquote>
 <p>Sure. I started at Cat Logistics doing inbound transportation, which went from a single division to five or six divisions by the time I was done. In 2017 I transitioned into building the QA team at PacketFabric, and that expanded into building the software engineering team itself.</p>
 <p>I joined when there were six or seven engineers, and I was the first one on the QA side. When the company went through their next round of funding I was the one that led the software engineering growth. So we worked with Woven to hire roughly 20 engineers in about 10 months.</p>
 </blockquote>
-<h3 id="had-you-used-a-technical-assessment-tool-before-woven">Had you used a technical assessment tool before Woven?<a class="headerlink" href="#had-you-used-a-technical-assessment-tool-before-woven" title="Permanent link">¶</a></h3>
+<h3 id="tooling-before-woven">Tooling before Woven<a class="headerlink" href="#tooling-before-woven" title="Permanent link">¶</a></h3>
+<p>Interviewer: Had you used a technical assessment tool before Woven?</p>
 <blockquote>
 <p>Before Woven we were using just a standard take-home test. We built a rubric, we built the scenario, and we handed it out to the people we wanted to move forward in the interview process.</p>
 <p>The problem with that is it’s very, very time-consuming. It means that me or another engineer is constantly following up. “Hey, are you going to take this today? Are you going to get this done? We sent this a week ago.” And we had to spend time writing it, too. I also had to make sure they were all evaluated uniformly because if not, you’re not getting any value out of it.</p>
@@ -118,29 +119,33 @@
 <p>Other things like debugging and systems architecture were very helpful in identifying the senior engineers we were looking for at the time, because we were growing quickly. And Woven was able to identify a senior engineer versus somebody that had some experience but hadn’t done the full gambit of work that a senior engineer would have done in the past.</p>
 <p>So Woven really grew to cover most of engineering because it was so successful in bringing in high-quality engineers with very low turnover.</p>
 </blockquote>
-<h3 id="did-you-hear-any-feedback-from-candidates-about-their-experience-using-the-platform">Did you hear any feedback from candidates about their experience using the platform?<a class="headerlink" href="#did-you-hear-any-feedback-from-candidates-about-their-experience-using-the-platform" title="Permanent link">¶</a></h3>
+<h3 id="candidate-experience">Candidate experience<a class="headerlink" href="#candidate-experience" title="Permanent link">¶</a></h3>
+<p>Interviewer: Did you hear any feedback from candidates about their experience using the platform?</p>
 <blockquote>
 <p>Oh, constantly. Especially from engineers in the calculating and billing invoices area. You know, they thought this was just a scenario that was built up, but it was actually focused on what they would be doing. There was a lot of feedback like, “This is not just a code challenge. This feels like real work.” Those types of things were said constantly throughout the interview process, and we didn’t solicit them.</p>
 <p>The most I usually said was, “You should have received feedback, was there anything you wanted to discuss?” And their response was kinda like, “No, it was very good and very thorough.” They were appreciative of feedback because most candidates have gone through more than one interview at this point, especially the senior engineers, and often they’re just ghosted.</p>
 </blockquote>
-<h3 id="im-sure-as-the-candidate-it-doesnt-feel-good-to-get-ghosted-or-to-spend-time-doing-something-that-doesnt-matter-especially-when-youre-really-experienced">I’m sure as the candidate it doesn’t feel good to get ghosted or to spend time doing something that doesn’t matter. Especially when you’re really experienced.<a class="headerlink" href="#im-sure-as-the-candidate-it-doesnt-feel-good-to-get-ghosted-or-to-spend-time-doing-something-that-doesnt-matter-especially-when-youre-really-experienced" title="Permanent link">¶</a></h3>
+<h3 id="puzzles">Puzzles<a class="headerlink" href="#puzzles" title="Permanent link">¶</a></h3>
+<p>Interviewer: I’m sure as the candidate it doesn’t feel good to get ghosted or to spend time doing something that doesn’t matter. Especially when you’re really experienced.</p>
 <blockquote>
 <p>Yes. As a hiring manager, I have zero interest in puzzle questions. They’re not helpful to me. It feels like I’m wasting their time and my time. When candidates are able to see and do projects that feel real, it’s important.</p>
 <p>If they’re just doing a puzzle, they don’t get a sense of what we want to do. And with Woven, they’re getting well-defined scenarios that are picked by a hiring committee and focus on what the role is supposed to cover. You know a senior engineer is going to be doing debugging and is going to be looking at architecture. It may not be our exact system, but it’s pretty close and you’re going to be doing this type of work.</p>
 <p>I’ve done puzzles when I’ve interviewed, and I hate giving puzzles.</p>
 </blockquote>
-<h3 id="i-imagine-a-lot-of-people-in-your-position-would-say-that-why-would-you-give-a-candidate-something-that-you-wouldnt-want-to-take">I imagine a lot of people in your position would say that. Why would you give a candidate something that you wouldn’t want to take?<a class="headerlink" href="#i-imagine-a-lot-of-people-in-your-position-would-say-that-why-would-you-give-a-candidate-something-that-you-wouldnt-want-to-take" title="Permanent link">¶</a></h3>
+<p>Interviewer: I imagine a lot of people in your position would say that. Why would you give a candidate something that you wouldn’t want to take?</p>
 <blockquote>
 <p>Exactly. If I was interviewing for this role, I would not want to do a puzzle. I had to go through the Woven test as I was applying here. And I was like “Okay, I’ve seen the other side. I’ve gone through this. This is exactly what other candidates have said.”</p>
 </blockquote>
-<h3 id="tell-me-about-that-transitioning-from-using-woven-as-a-service-to-going-through-the-interview-process-and-becoming-an-employee">Tell me about that — transitioning from using Woven as a service to going through the interview process and becoming an employee.<a class="headerlink" href="#tell-me-about-that-transitioning-from-using-woven-as-a-service-to-going-through-the-interview-process-and-becoming-an-employee" title="Permanent link">¶</a></h3>
+<h3 id="moving-to-woven">Moving to Woven<a class="headerlink" href="#moving-to-woven" title="Permanent link">¶</a></h3>
+<p>Interviewer: Tell me about that — transitioning from using Woven as a service to going through the interview process and becoming an employee.</p>
 <blockquote>
 <p>The big thing that I learned is that Woven’s engineering team is a lot smaller than I thought. Because when I would have a question or an issue, it would get solved really quickly. So I thought there was a much larger team. But it points to how good the engineering team is here.</p>
 <p>And going through the interview process was fun. Obviously I knew very high-level what it looks like, how it operates. I knew what was going on behind the scenes. But I was nervous because even though I knew what the test was going to look like, I don’t know exactly how I did.</p>
 <p>Then I got the feedback and it was really good. There were a few areas that I definitely could have done better and Woven caught all of it. So I was very happy with that.</p>
 <p>Moving over here is really like looking through the other side of the mirror. It’s interesting to see how things actually work.</p>
 </blockquote>
-<h3 id="as-someone-whos-been-on-both-sides-of-the-mirror-what-would-you-say-to-other-vps-is-the-main-benefit-of-using-woven">As someone who’s been on both sides of the mirror, what would you say to other VPs is the main benefit of using Woven?<a class="headerlink" href="#as-someone-whos-been-on-both-sides-of-the-mirror-what-would-you-say-to-other-vps-is-the-main-benefit-of-using-woven" title="Permanent link">¶</a></h3>
+<h3 id="other-side-of-the-mirror">Other side of the mirror<a class="headerlink" href="#other-side-of-the-mirror" title="Permanent link">¶</a></h3>
+<p>Interviewer: As someone who’s been on both sides of the mirror, what would you say to other VPs is the main benefit of using Woven?</p>
 <blockquote>
 <p>From a hiring manager perspective, I’d talk about how much time is saved from when my team was doing their own evaluations to when Woven was involved.</p>
 <p>It was very easy to see the teams that were hiring using Woven versus the teams that were building their own scenario take-home tests. The efficiency was so much higher with the Woven teams. They could get through more candidates and they could get higher-quality candidates to the later stages versus the teams that would be doing their own take-homes.</p>
@@ -189,8 +194,8 @@
     <i class="fa fa-stack-overflow sidebar-social-links"></i></a>
     <a href="http://steamcommunity.com/id/InsaneMosquito/" title="My Steam Profile" class="sidebar-social-links" target="_blank">
     <i class="fa fa-steam-square sidebar-social-links"></i></a>
-    <a href="https://stackoverflow.com/cv/andrewwegner" title="My Stack Overflow Jobs Profile" class="sidebar-social-links" target="_blank">
-    <i class="fa fa-stack-overflow sidebar-social-links"></i></a>
+    <a href="https://www.linkedin.com/in/andrew-wegner/" title="My LinkedIn Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-linkedin sidebar-social-links"></i></a>
         </div>
         </section>
 </div>
